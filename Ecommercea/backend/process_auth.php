@@ -1,73 +1,68 @@
 <?php
-session_start();
-include '../backend/db.php';
+include 'db.php';
+$response = array("success" => false, "message" => "");
 
-$response = ['success' => false, 'message' => ''];
+$action = $_POST['action'];
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (isset($_POST['email']) && isset($_POST['senha'])) {
+if ($action === 'register') {
+    // Registro de usuário
+    $nome_completo = $_POST['nome_completo'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $cpf = $_POST['cpf'];
+    $senha = password_hash($_POST['senha'], PASSWORD_BCRYPT);
 
-        // Lógica de Registro
-        if (isset($_POST['nome_completo'])) {
-            $nome_usuario = trim($_POST['nome_completo']);
-            $email = trim($_POST['email']);
-            $telefone = trim($_POST['telefone']);
-            $cpf = trim($_POST['cpf']);
-            $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
+    // Verifica se o email já está registrado
+    $query = "SELECT * FROM usuarios WHERE email = ?";
+    $stmt = $conn->prepare($query);
+    $stmt->bind_param("s", $email);
+    $stmt->execute();
+    $result = $stmt->get_result();
 
-            $sql = "SELECT * FROM usuarios WHERE email = ?";
-            $stmt = $conn->prepare($sql);
-            $stmt->bind_param("s", $email);
-            $stmt->execute();
-            $result = $stmt->get_result();
+    if ($result->num_rows > 0) {
+        $response["message"] = "Este email já está registrado.";
+    } else {
+        // Insere o novo usuário
+        $query = "INSERT INTO usuarios (nome_usuario, email, telefone, cpf, senha) VALUES (?, ?, ?, ?, ?)";
+        $stmt = $conn->prepare($query);
+        $stmt->bind_param("sssss", $nome_completo, $email, $telefone, $cpf, $senha);
 
-            if ($result->num_rows > 0) {
-                $response['message'] = "Email já registrado. Por favor, use outro email.";
-            } else {
-                $sql = "INSERT INTO usuarios (nome_usuario, email, telefone, cpf, senha) VALUES (?, ?, ?, ?, ?)";
-                $stmt = $conn->prepare($sql);
-                $stmt->bind_param("sssss", $nome_usuario, $email, $telefone, $cpf, $senha);
-                if ($stmt->execute()) {
-                    $_SESSION['sucesso_registro'] = "Registro bem-sucedido! Você pode entrar agora.";
-                    $response['success'] = true;
-                    $response['message'] = "Registro realizado com sucesso!";
-                } else {
-                    $response['message'] = "Erro ao registrar. Tente novamente.";
-                    error_log("Erro ao executar o statement: " . $stmt->error);
-                }
-            }
-
-        // Lógica de Login
+        if ($stmt->execute()) {
+            $response["success"] = true;
+            $response["message"] = "Registro realizado com sucesso!";
         } else {
-            $email = $_POST['email'];
-            $senha = $_POST['senha'];
-
-            $sql = "SELECT * FROM usuarios WHERE email = ?";
-            $stmt = $conn->prepare($sql);
-            $stmt->bind_param("s", $email);
-            $stmt->execute();
-            $result = $stmt->get_result();
-
-            if ($result->num_rows > 0) {
-                $usuario = $result->fetch_assoc();
-
-                if (password_verify($senha, $usuario['senha'])) {
-                    $_SESSION['usuario_id'] = $usuario['id_usuario'];
-                    $_SESSION['nome_usuario'] = $usuario['nome_usuario'];
-                    $response['success'] = true;
-                    $response['message'] = 'Login realizado com sucesso!';
-                } else {
-                    $response['message'] = 'Senha incorreta!';
-                }
-            } else {
-                $response['message'] = 'Usuário não encontrado!';
-            }
+            $response["message"] = "Erro ao registrar. Tente novamente.";
         }
+    }
+} elseif ($action === 'login') {
+    // Autenticação de usuário
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
 
-        $stmt->close();
-        $conn->close();
-        echo json_encode($response);
-        exit();
+    // Verifica se o email existe
+    $query = "SELECT * FROM usuarios WHERE email = ?";
+    $stmt = $conn->prepare($query);
+    $stmt->bind_param("s", $email);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result->num_rows > 0) {
+        $user = $result->fetch_assoc();
+        // Verifica a senha
+        if (password_verify($senha, $user['senha'])) {
+            $response["success"] = true;
+            $response["message"] = "Login realizado com sucesso!";
+            // Inicia a sessão e redireciona o usuário para o índice
+            session_start();
+            $_SESSION['user_id'] = $user['id_usuario'];
+            $_SESSION['user_name'] = $user['nome_usuario'];
+        } else {
+            $response["message"] = "Senha incorreta.";
+        }
+    } else {
+        $response["message"] = "Email não registrado.";
     }
 }
-?>
+
+$conn->close();
+echo json_encode($response);

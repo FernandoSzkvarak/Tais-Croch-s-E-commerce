@@ -1,25 +1,28 @@
-/* Estilos gerais do site */
+/* Estilos Gerais do Site */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
 h2 {
-    font-size: 1.5rem;
-    color: #333;
+    font-size: 1.75rem;
+    color: #444;
+    margin-bottom: 20px;
 }
 
 /* Navbar */
 
 .navbar-dark .navbar-brand {
     font-weight: bold;
+    color: #ff7f50;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -30,11 +33,11 @@ h2 {
 
 .carousel-inner img {
     width: 100%;
-    height: 400px; /* Ajustado para a altura desejada */
-    object-fit: cover; /* Mantém a proporção e centraliza a imagem */
+    height: 450px;
+    object-fit: cover;
 }
 
-/* Estilos do rodapé */
+/* Estilos do Rodapé */
 
 footer {
     position: relative;
@@ -44,9 +47,19 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    font-size: 0.9rem;
 }
 
-/* Estilos da página de produtos */
+footer a {
+    color: #ff7f50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos da Página de Produtos */
 
 .product-details {
     display: flex;
@@ -54,10 +67,13 @@ footer {
     justify-content: center;
     align-items: flex-start;
     margin-top: 20px;
+    padding: 0 15px;
 }
 
 .product-details img {
-    max-width: 300px;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-right: 20px;
 }
 
@@ -66,19 +82,20 @@ footer {
 }
 
 .product-info h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
+    color: #ff7f50;
 }
 
 .product-info p {
     font-size: 1.2rem;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .add-to-cart {
-    background-color: #28a745;
+    background-color: #ff7f50;
     border: none;
-    color: #fff;
+    color: white;
     padding: 0.7em 1em;
     border-radius: 4px;
     cursor: pointer;
@@ -86,34 +103,42 @@ footer {
 }
 
 .add-to-cart:hover {
-    background-color: #218838;
+    background-color: #e56743;
 }
 
-/* Estilos da tabela de administração */
+/* Estilos da Tabela de Administração */
 
 .table-admin {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .table-admin th,
 .table-admin td {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 12px;
     text-align: left;
 }
 
 .table-admin th {
     background-color: #343a40;
     color: white;
+    text-transform: uppercase;
+    font-size: 0.85rem;
 }
 
 .table-admin td {
     background-color: #fff;
+    font-size: 0.9rem;
 }
 
-/* Estilos do botão adicionar produto */
+.table-admin tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos do Botão Adicionar Produto */
 
 .btn-success {
     background-color: #28a745;
@@ -121,12 +146,13 @@ footer {
     color: white;
 }
 
-/* Modal overrides */
-
-.modal-header {
-    background-color: #343a40;
-    color: white;
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
 }
+
+/* Modal Overrides */
+
 
 .modal-title {
     font-size: 1.25rem;
@@ -141,19 +167,24 @@ footer {
     color: #aaa;
 }
 
-/* Estilos do suporte */
+/* Estilos do Suporte */
 
 .support-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #28a745;
+    background-color: #ff7f50;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.support-button:hover {
+    background-color: #e56743;
 }
 
 .support-popup {
@@ -173,7 +204,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007bff;
+    background-color: #ff7f50;
     color: white;
     padding: 10px;
     border-top-left-radius: 5px;
@@ -212,6 +243,7 @@ footer {
     border-radius: 5px;
     width: 100%;
     box-sizing: border-box;
+    font-size: 14px;
 }
 
 .support-popup form button {
@@ -223,7 +255,7 @@ footer {
     cursor: pointer;
 }
 
-/* Ajustes de responsividade */
+/* Ajustes de Responsividade */
 
 @media (max-width: 768px) {
     .product-details {
@@ -241,7 +273,7 @@ footer {
     }
 
     .table-admin {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
     .btn-success {
@@ -260,7 +292,7 @@ footer {
     }
 
     .product-info h2 {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
 
     .product-info p {
@@ -268,47 +300,91 @@ footer {
     }
 }
 
-/* Toast Styles */
+/* Estilos do Toast */
 .toast {
-    visibility: hidden;
-    max-width: 50px;
-    height: 50px;
-    margin-left: -125px;
-    margin-bottom: 30px;
     background-color: #333;
     color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
     text-align: center;
-    border-radius: 2px;
     position: fixed;
-    z-index: 1;
-    bottom: 30px;
-    left: 50%;
-    font-size: 17px;
-    white-space: nowrap;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1055;
+    display: none; /* Inicialmente oculto */
 }
 
 .toast.show {
-    visibility: visible;
+    display: block;
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 
+/* styles-index.css ou um novo arquivo CSS */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #ffffff;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+    border: none;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #ffffff;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+.dropdown-menu .dropdown-divider {
+    border-top: 1px solid #6c757d;
+}
+
+.dropdown-menu .dropdown-item.text-danger {
+    color: #dc3545;
+}
+
+.dropdown-menu .dropdown-item.text-danger:hover,
+.dropdown-menu .dropdown-item.text-danger:focus {
+    background-color: #bd2130;
+    color: #ffffff;
+}
+
+#profileImage {
+    object-fit: cover;
+    border: 2px solid #ffffff;
+}
+
 @-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
+    from {top: 0; opacity: 0;}
+    to {top: 1rem; opacity: 1;}
 }
 
 @keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
+    from {top: 0; opacity: 0;}
+    to {top: 1rem; opacity: 1;}
 }
 
 @-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
+    from {top: 1rem; opacity: 1;}
+    to {top: 0; opacity: 0;}
 }
 
 @keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
+    from {top: 1rem; opacity: 1;}
+    to {top: 0; opacity: 0;}
 }
