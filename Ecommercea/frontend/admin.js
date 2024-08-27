@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Verifica se o usuário é administrador
+    if (!isAdminUser()) {
+        window.location.href = 'index.php'; // Redireciona se não for admin
+        return;
+    }
+
     fetchProducts();
 
     document.getElementById('add-product-form').addEventListener('submit', function(e) {
@@ -8,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const price = parseFloat(formData.get('preco-produto').replace(',', '.'));
         const stock = parseInt(formData.get('estoque-produto'));
 
+        // Validações dos campos
         if (!formData.get('nome-produto').trim()) {
             Swal.fire('Erro', 'O nome do produto não pode ser vazio.', 'error');
             return;
@@ -28,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
+        // Confirmação de adição de produto
         Swal.fire({
             title: 'Adicionar Produto',
             text: 'Tem certeza que deseja adicionar este produto?',
@@ -63,6 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const price = parseFloat(formData.get('preco-produto').replace(',', '.'));
         const stock = parseInt(formData.get('estoque-produto'));
 
+        // Validações dos campos
         if (!formData.get('nome-produto').trim()) {
             Swal.fire('Erro', 'O nome do produto não pode ser vazio.', 'error');
             return;
@@ -83,6 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
+        // Confirmação de atualização de produto
         Swal.fire({
             title: 'Atualizar Produto',
             text: 'Tem certeza que deseja atualizar este produto?',
@@ -113,6 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Função para buscar os produtos e preencher a tabela
     function fetchProducts() {
         fetch('../backend/list_produtos.php')
         .then(response => response.json())
@@ -155,6 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Erro ao buscar produtos:', error));
     }
 
+    // Função para abrir o modal de edição com os dados do produto
     function openEditModal(id) {
         fetch(`../backend/get_produto.php?id=${id}`)
         .then(response => response.json())
@@ -171,6 +183,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Erro ao buscar produto:', error));
     }
 
+    // Função para confirmar e remover um produto
     function confirmRemoveProduct(id) {
         Swal.fire({
             title: 'Remover Produto',
@@ -186,6 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // Função para remover um produto
     function removeProduct(id) {
         const formData = new FormData();
         formData.append('product-id', id);
@@ -204,5 +218,10 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Erro ao remover produto:', error);
             Swal.fire('Erro', 'Erro ao remover produto.', 'error');
         });
+    }
+
+    // Função para verificar se o usuário é admin
+    function isAdminUser() {
+        return document.body.getAttribute('data-is-admin') === 'true';
     }
 });

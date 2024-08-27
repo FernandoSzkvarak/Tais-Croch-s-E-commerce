@@ -1,4 +1,9 @@
-<!-- header.php -->
+<?php
+session_start(); // Inicie a sessão para acessar as variáveis de sessão
+
+// Supondo que você já tenha uma variável de sessão `is_admin` armazenada quando o usuário faz login
+$isAdmin = isset($_SESSION['is_admin']) && $_SESSION['is_admin'] == 1;
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -28,13 +33,16 @@
             <!-- Dropdown Perfil -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <!-- Aqui usamos uma imagem de exemplo, você pode substituir pela imagem do usuário -->
                     <img src="img/usuario.png" alt="Avatar" class="rounded-circle" width="30" height="30" id="profileImage">
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown">
                     <a class="dropdown-item" href="ver_perfil.php">Ver Perfil</a>
                     <a class="dropdown-item" href="editar_perfil.php">Editar Perfil</a>
                     <a class="dropdown-item" href="ver_compras.php">Ver Compras</a>
+                    <?php if ($isAdmin): ?>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="admin.php">Painel Adm</a>
+                    <?php endif; ?>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item text-danger" href="logout.php">Sair</a>
                 </div>

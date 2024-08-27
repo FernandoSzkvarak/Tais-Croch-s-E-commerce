@@ -22,8 +22,8 @@ if ($action === 'register') {
     if ($result->num_rows > 0) {
         $response["message"] = "Este email já está registrado.";
     } else {
-        // Insere o novo usuário
-        $query = "INSERT INTO usuarios (nome_usuario, email, telefone, cpf, senha) VALUES (?, ?, ?, ?, ?)";
+        // Insere o novo usuário com is_admin padrão como 0
+        $query = "INSERT INTO usuarios (nome_usuario, email, telefone, cpf, senha, is_admin) VALUES (?, ?, ?, ?, ?, 0)";
         $stmt = $conn->prepare($query);
         $stmt->bind_param("sssss", $nome_completo, $email, $telefone, $cpf, $senha);
 
@@ -52,10 +52,11 @@ if ($action === 'register') {
         if (password_verify($senha, $user['senha'])) {
             $response["success"] = true;
             $response["message"] = "Login realizado com sucesso!";
-            // Inicia a sessão e redireciona o usuário para o índice
+            // Inicia a sessão e armazena os dados do usuário na sessão
             session_start();
             $_SESSION['user_id'] = $user['id_usuario'];
             $_SESSION['user_name'] = $user['nome_usuario'];
+            $_SESSION['is_admin'] = $user['is_admin']; // Armazena se o usuário é admin ou não
         } else {
             $response["message"] = "Senha incorreta.";
         }
@@ -66,3 +67,4 @@ if ($action === 'register') {
 
 $conn->close();
 echo json_encode($response);
+?>

@@ -41,14 +41,23 @@ CREATE TABLE itens_pedido (
     FOREIGN KEY (id_produto) REFERENCES produtos(id_produto)
 );
 
--- Comando para verificar os produtos na tabela
-SELECT * FROM produtos;
-
-SELECT * FROM usuarios;
-
 ALTER TABLE usuarios
 ADD COLUMN telefone VARCHAR(15) AFTER nome_usuario,
 ADD COLUMN cpf VARCHAR(14) UNIQUE AFTER telefone,
 MODIFY COLUMN nome_usuario VARCHAR(255) NOT NULL;
 
-ALTER TABLE produtos ADD descricao TEXT;
+ALTER TABLE usuarios
+ADD COLUMN is_admin BOOLEAN NOT NULL DEFAULT 0;
+
+
+-- UPDATE usuarios
+-- SET is_admin = 1
+-- WHERE id_usuario = <id_do_usuario>;
+
+UPDATE usuarios
+SET is_admin = 1
+WHERE id_usuario = 26;
+
+SELECT * FROM produtos;
+
+SELECT * FROM usuarios;

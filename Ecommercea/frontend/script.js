@@ -33,17 +33,17 @@ function submitSupportForm(event) {
         method: 'POST',
         body: formData
     })
-    .then(response => response.json())
+    .then(response => {
+        return response.json();
+    })
     .then(data => {
         if (data.success) {
-            // Exibir notificação de sucesso
             showSuccessNotification();
         } else {
-            // Exibir notificação de erro, mas não fechar o modal
             Swal.fire({
                 icon: 'error',
                 title: 'Erro ao enviar o email!',
-                text: 'Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente.',
+                text: data.message || 'Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente.',
                 showConfirmButton: false,
                 timer: 3000,
                 toast: true,
@@ -72,17 +72,28 @@ function submitSupportForm(event) {
 
 // Inicialização dos eventos após o DOM estar completamente carregado
 document.addEventListener('DOMContentLoaded', function () {
-    const supportForm = document.getElementById('support-form');
-    const supportButton = document.getElementById('support-button');
-    const cartIcon = document.getElementById('cart-icon');
+    const profileDropdown = document.getElementById('profileDropdown');
 
-    if (supportForm) {
-        supportForm.addEventListener('submit', submitSupportForm);
-    }
-    if (supportButton) {
-        supportButton.addEventListener('click', toggleSupportPopup);
-    }
-    if (cartIcon) {
-        cartIcon.addEventListener('click', toggleCart);
+    if (profileDropdown) {
+        profileDropdown.addEventListener('click', function (event) {
+            event.preventDefault();
+            const dropdownMenu = this.nextElementSibling;
+
+            if (dropdownMenu.style.display === 'block') {
+                dropdownMenu.style.display = 'none';
+            } else {
+                dropdownMenu.style.display = 'block';
+            }
+        });
+
+        // Fechar dropdown ao clicar fora
+        document.addEventListener('click', function (event) {
+            const isClickInside = profileDropdown.contains(event.target) || profileDropdown.nextElementSibling.contains(event.target);
+            if (!isClickInside) {
+                profileDropdown.nextElementSibling.style.display = 'none';
+            }
+        });
     }
 });
+
+

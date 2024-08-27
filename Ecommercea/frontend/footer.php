@@ -4,7 +4,7 @@
     <p>
         <a href="sobre.php" class="text-white">Sobre Nós</a> |
         <a href="contato.php" class="text-white">Contato</a> |
-        <a href="politica_privacidade.php" class="text-white">Política de Privacidade</a>
+        <a href="p_privacidade.php" class="text-white">Política de Privacidade</a>
     </p>
 </footer>
 
