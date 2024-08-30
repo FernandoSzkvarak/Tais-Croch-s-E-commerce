@@ -1,13 +1,37 @@
 /* styles-header-footer.css */
 
 /* Estilo geral do header */
+/* styles-header-footer.css */
+
+/* Estilo geral do header */
 .navbar-dark {
     background-color: #343a40; /* Cor de fundo do header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px; /* Aumenta a altura do header */
+}
+
+.navbar-dark .navbar-brand {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.8rem; /* Aumenta o tamanho da fonte do título */
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-dark .navbar-nav {
+    display: flex;
+    justify-content: center; /* Centralizar itens na barra de navegação */
+    flex-grow: 1; /* Permite que os itens cresçam e ocupem o espaço disponível */
+    align-items: center; /* Alinha verticalmente os itens */
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.8); /* Cor das opções do menu */
     margin-right: 20px; /* Espaçamento entre os itens */
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte dos links */
+    padding: 0 10px; /* Ajusta o padding dos links */
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -15,7 +39,19 @@
     color: #ffffff; /* Cor ao passar o mouse */
 }
 
-/* Dropdown do Perfil */
+/* Botão de perfil alinhado à direita */
+.navbar-dark .dropdown {
+    margin-left: auto; /* Move o dropdown de perfil para o lado direito */
+}
+
+#profileImage {
+    width: 50px; /* Ajusta o tamanho da imagem de perfil */
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ffffff; /* Borda branca ao redor da imagem */
+}
+
 .dropdown-menu {
     background-color: #343a40; /* Cor de fundo do dropdown */
     border: none; /* Remover bordas */

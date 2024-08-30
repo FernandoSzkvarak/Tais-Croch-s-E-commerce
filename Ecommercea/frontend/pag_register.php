@@ -107,8 +107,8 @@
                 <form id="register-form" action="../backend/process_auth.php" method="POST">
                     <input type="hidden" name="action" value="register">
                     <div class="form-group">
-                        <label for="nome_completo">Nome Completo</label>
-                        <input type="text" id="nome_completo" name="nome_completo" class="form-control" required>
+                        <label for="nome">Nome Completo</label> <!-- Corrigi o `for` e o `id` -->
+                        <input type="text" id="nome" name="nome" class="form-control" required> <!-- Corrigi o `name` -->
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
@@ -171,6 +171,18 @@
                             position: 'top-right'
                         });
                     }
+                },
+                error: function(xhr, status, error) {
+                    console.error(xhr.responseText); // Log detalhado para depuração
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Erro ao Registrar!',
+                        text: 'Erro no servidor. Por favor, tente novamente mais tarde.',
+                        showConfirmButton: false,
+                        timer: 2000,
+                        toast: true,
+                        position: 'top-right'
+                    });
                 }
             });
         });

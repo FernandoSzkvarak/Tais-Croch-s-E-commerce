@@ -1,0 +1,936 @@
+2024-08-29 07:10:12 - Início do script process_auth.php
+2024-08-29 07:10:12 - Ação recebida: login
+2024-08-29 07:10:12 - Processando login de usuário.
+2024-08-29 07:10:12 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 07:10:12 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 07:10:12 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 07:10:12 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 07:10:12 - Valor de is_admin no banco de dados: 1
+2024-08-29 07:10:12 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 07:10:12 - Finalizando script process_auth.php
+2024-08-29 07:24:44 - Início do script process_auth.php
+2024-08-29 07:24:44 - Ação recebida: login
+2024-08-29 07:24:44 - Processando login de usuário.
+2024-08-29 07:24:44 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 07:24:44 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 07:24:44 - Valor de is_admin no banco de dados: 1
+2024-08-29 07:24:44 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 07:24:44 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 07:24:44 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 07:24:44 - Finalizando script process_auth.php
+2024-08-29 07:37:51 - Início do script process_clientes.php
+2024-08-29 07:37:51 - Ação recebida: remover
+2024-08-29 07:37:51 - Cliente 28 removido com sucesso.
+2024-08-29 07:37:51 - Finalizando script process_clientes.php
+2024-08-29 07:38:04 - Início do script process_clientes.php
+2024-08-29 07:38:04 - Ação recebida: editar
+2024-08-29 07:38:04 - Erro ao editar cliente 31: Duplicate entry 'gleicitais@gmail.com' for key 'email'
+2024-08-29 07:38:04 - Finalizando script process_clientes.php
+2024-08-29 07:38:12 - Início do script process_clientes.php
+2024-08-29 07:38:12 - Ação recebida: tornar_admin
+2024-08-29 07:38:12 - Usuário 31 promovido a admin com sucesso.
+2024-08-29 07:38:12 - Finalizando script process_clientes.php
+2024-08-29 07:39:36 - Início do script process_clientes.php
+2024-08-29 07:39:36 - Ação recebida: remover
+2024-08-29 07:39:36 - Cliente 1 removido com sucesso.
+2024-08-29 07:39:36 - Finalizando script process_clientes.php
+2024-08-29 07:39:40 - Início do script process_clientes.php
+2024-08-29 07:39:40 - Ação recebida: remover
+2024-08-29 07:39:40 - Cliente 30 removido com sucesso.
+2024-08-29 07:39:40 - Finalizando script process_clientes.php
+2024-08-29 07:46:56 - Início do script get_cliente.php
+2024-08-29 07:46:56 - ID recebido: 26
+2024-08-29 07:46:56 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:46:56 - Finalizando script get_cliente.php
+2024-08-29 07:46:57 - Início do script get_cliente.php
+2024-08-29 07:46:57 - ID recebido: 26
+2024-08-29 07:46:57 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:46:57 - Finalizando script get_cliente.php
+2024-08-29 07:46:57 - Início do script get_cliente.php
+2024-08-29 07:46:57 - ID recebido: 26
+2024-08-29 07:46:57 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:46:57 - Finalizando script get_cliente.php
+2024-08-29 07:46:57 - Início do script get_cliente.php
+2024-08-29 07:46:57 - ID recebido: 26
+2024-08-29 07:46:57 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:46:57 - Finalizando script get_cliente.php
+2024-08-29 07:46:57 - Início do script get_cliente.php
+2024-08-29 07:46:57 - ID recebido: 26
+2024-08-29 07:46:57 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:46:57 - Finalizando script get_cliente.php
+2024-08-29 07:48:52 - Início do script get_cliente.php
+2024-08-29 07:48:52 - ID recebido: 26
+2024-08-29 07:48:52 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:48:52 - Finalizando script get_cliente.php
+2024-08-29 07:49:08 - Início do script get_cliente.php
+2024-08-29 07:49:08 - ID recebido: 26
+2024-08-29 07:49:08 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:49:08 - Finalizando script get_cliente.php
+2024-08-29 07:49:08 - Início do script get_cliente.php
+2024-08-29 07:49:08 - ID recebido: 26
+2024-08-29 07:49:08 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:49:08 - Finalizando script get_cliente.php
+2024-08-29 07:49:09 - Início do script get_cliente.php
+2024-08-29 07:49:09 - ID recebido: 26
+2024-08-29 07:49:09 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:49:09 - Finalizando script get_cliente.php
+2024-08-29 07:49:09 - Início do script get_cliente.php
+2024-08-29 07:49:09 - ID recebido: 26
+2024-08-29 07:49:09 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:49:09 - Finalizando script get_cliente.php
+2024-08-29 07:49:14 - Início do script process_clientes.php
+2024-08-29 07:49:14 - Ação recebida: remover
+2024-08-29 07:49:14 - Cliente 36 removido com sucesso.
+2024-08-29 07:49:14 - Finalizando script process_clientes.php
+2024-08-29 07:49:19 - Início do script process_clientes.php
+2024-08-29 07:49:19 - Ação recebida: tornar_admin
+2024-08-29 07:49:19 - Usuário 35 promovido a admin com sucesso.
+2024-08-29 07:49:19 - Finalizando script process_clientes.php
+2024-08-29 07:49:49 - Início do script get_cliente.php
+2024-08-29 07:49:49 - ID recebido: 26
+2024-08-29 07:49:49 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:49:49 - Finalizando script get_cliente.php
+2024-08-29 07:49:56 - Início do script get_cliente.php
+2024-08-29 07:49:56 - ID recebido: 34
+2024-08-29 07:49:56 - Cliente encontrado: {"id_usuario":34,"nome_usuario":"carlos desengrini","email":"carlosmausssa@hotmail.com","telefone":"43999534710","cpf":"231863839925"}
+2024-08-29 07:49:56 - Finalizando script get_cliente.php
+2024-08-29 07:50:06 - Início do script get_cliente.php
+2024-08-29 07:50:06 - ID recebido: 34
+2024-08-29 07:50:06 - Cliente encontrado: {"id_usuario":34,"nome_usuario":"carlos desengrini","email":"carlosmausssa@hotmail.com","telefone":"43999534710","cpf":"231863839925"}
+2024-08-29 07:50:06 - Finalizando script get_cliente.php
+2024-08-29 07:54:30 - Início do script get_cliente.php
+2024-08-29 07:54:30 - ID recebido: 26
+2024-08-29 07:54:30 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 07:54:30 - Finalizando script get_cliente.php
+2024-08-29 07:54:35 - Início do script get_cliente.php
+2024-08-29 07:54:35 - ID recebido: 34
+2024-08-29 07:54:35 - Cliente encontrado: {"id_usuario":34,"nome_usuario":"carlos desengrini","email":"carlosmausssa@hotmail.com","telefone":"43999534710","cpf":"231863839925"}
+2024-08-29 07:54:35 - Finalizando script get_cliente.php
+2024-08-29 07:54:41 - Início do script process_clientes.php
+2024-08-29 07:54:41 - Ação recebida: 
+2024-08-29 07:54:41 - Finalizando script process_clientes.php
+2024-08-29 07:55:00 - Início do script get_cliente.php
+2024-08-29 07:55:00 - ID recebido: 34
+2024-08-29 07:55:00 - Cliente encontrado: {"id_usuario":34,"nome_usuario":"carlos desengrini","email":"carlosmausssa@hotmail.com","telefone":"43999534710","cpf":"231863839925"}
+2024-08-29 07:55:00 - Finalizando script get_cliente.php
+2024-08-29 07:55:07 - Início do script process_clientes.php
+2024-08-29 07:55:07 - Ação recebida: 
+2024-08-29 07:55:07 - Finalizando script process_clientes.php
+2024-08-29 07:55:08 - Início do script process_clientes.php
+2024-08-29 07:55:08 - Ação recebida: 
+2024-08-29 07:55:08 - Finalizando script process_clientes.php
+2024-08-29 07:55:09 - Início do script process_clientes.php
+2024-08-29 07:55:09 - Ação recebida: 
+2024-08-29 07:55:09 - Finalizando script process_clientes.php
+2024-08-29 07:55:09 - Início do script process_clientes.php
+2024-08-29 07:55:09 - Ação recebida: 
+2024-08-29 07:55:09 - Finalizando script process_clientes.php
+2024-08-29 07:55:09 - Início do script process_clientes.php
+2024-08-29 07:55:09 - Ação recebida: 
+2024-08-29 07:55:09 - Finalizando script process_clientes.php
+2024-08-29 07:55:09 - Início do script process_clientes.php
+2024-08-29 07:55:09 - Ação recebida: 
+2024-08-29 07:55:09 - Finalizando script process_clientes.php
+2024-08-29 16:51:36 - Início do script process_auth.php
+2024-08-29 16:51:36 - Ação recebida: login
+2024-08-29 16:51:36 - Processando login de usuário.
+2024-08-29 16:51:36 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 16:51:36 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 16:51:36 - Valor de is_admin no banco de dados: 1
+2024-08-29 16:51:36 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 16:51:36 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 16:51:36 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 16:51:36 - Finalizando script process_auth.php
+2024-08-29 16:51:45 - Início do script get_cliente.php
+2024-08-29 16:51:45 - ID recebido: 26
+2024-08-29 16:51:45 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 16:51:45 - Finalizando script get_cliente.php
+2024-08-29 16:54:38 - Início do script get_cliente.php
+2024-08-29 16:54:38 - ID recebido: 26
+2024-08-29 16:54:38 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 16:54:38 - Finalizando script get_cliente.php
+2024-08-29 16:59:04 - Início do script get_cliente.php
+2024-08-29 16:59:04 - ID recebido: 26
+2024-08-29 16:59:04 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 16:59:04 - Finalizando script get_cliente.php
+2024-08-29 17:01:40 - Início do script process_auth.php
+2024-08-29 17:01:40 - Ação recebida: login
+2024-08-29 17:01:40 - Processando login de usuário.
+2024-08-29 17:01:40 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:01:40 - Senha incorreta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:01:40 - Finalizando script process_auth.php
+2024-08-29 17:01:43 - Início do script process_auth.php
+2024-08-29 17:01:43 - Ação recebida: login
+2024-08-29 17:01:43 - Processando login de usuário.
+2024-08-29 17:01:43 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:01:43 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:01:43 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:01:43 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:01:43 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:01:43 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:01:43 - Finalizando script process_auth.php
+2024-08-29 17:05:21 - Início do script process_auth.php
+2024-08-29 17:05:21 - Ação recebida: login
+2024-08-29 17:05:21 - Processando login de usuário.
+2024-08-29 17:05:21 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:05:21 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:05:21 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:05:21 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:05:21 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:05:21 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:05:21 - Finalizando script process_auth.php
+2024-08-29 17:06:15 - Início do script process_auth.php
+2024-08-29 17:06:15 - Ação recebida: login
+2024-08-29 17:06:15 - Processando login de usuário.
+2024-08-29 17:06:15 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:06:15 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:06:15 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:06:15 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:06:15 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:06:15 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:06:15 - Finalizando script process_auth.php
+2024-08-29 17:07:16 - Início do script process_auth.php
+2024-08-29 17:07:16 - Ação recebida: login
+2024-08-29 17:07:16 - Processando login de usuário.
+2024-08-29 17:07:16 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:07:16 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:07:16 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:07:16 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:07:16 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:07:16 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:07:16 - Finalizando script process_auth.php
+2024-08-29 17:09:16 - Início do script process_auth.php
+2024-08-29 17:09:16 - Ação recebida: login
+2024-08-29 17:09:16 - Processando login de usuário.
+2024-08-29 17:09:16 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:09:16 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:09:16 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:09:16 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:09:16 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:09:16 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:09:16 - Finalizando script process_auth.php
+2024-08-29 17:13:05 - Início do script process_auth.php
+2024-08-29 17:13:05 - Ação recebida: login
+2024-08-29 17:13:05 - Processando login de usuário.
+2024-08-29 17:13:05 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:13:05 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:13:05 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:13:05 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:13:05 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:13:05 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:13:05 - Finalizando script process_auth.php
+2024-08-29 17:21:01 - Início do script process_auth.php
+2024-08-29 17:21:01 - Ação recebida: login
+2024-08-29 17:21:01 - Processando login de usuário.
+2024-08-29 17:21:01 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:21:01 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:21:01 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:21:01 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:21:01 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:21:01 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:21:01 - Finalizando script process_auth.php
+2024-08-29 17:21:03 - Início do script process_auth.php
+2024-08-29 17:21:03 - Ação recebida: login
+2024-08-29 17:21:03 - Processando login de usuário.
+2024-08-29 17:21:03 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:21:03 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:21:03 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:21:03 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:21:03 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:21:03 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:21:03 - Finalizando script process_auth.php
+2024-08-29 17:21:10 - Início do script process_auth.php
+2024-08-29 17:21:10 - Ação recebida: login
+2024-08-29 17:21:10 - Processando login de usuário.
+2024-08-29 17:21:10 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:21:10 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:21:10 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:21:10 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:21:10 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:21:10 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:21:10 - Finalizando script process_auth.php
+2024-08-29 17:21:10 - Início do script process_auth.php
+2024-08-29 17:21:10 - Ação recebida: login
+2024-08-29 17:21:10 - Processando login de usuário.
+2024-08-29 17:21:10 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:21:10 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:21:10 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:21:10 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:21:10 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:21:10 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:21:10 - Finalizando script process_auth.php
+2024-08-29 17:21:10 - Início do script process_auth.php
+2024-08-29 17:21:10 - Ação recebida: login
+2024-08-29 17:21:10 - Processando login de usuário.
+2024-08-29 17:21:10 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:21:11 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:21:11 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:21:11 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:21:11 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:21:11 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:21:11 - Finalizando script process_auth.php
+2024-08-29 17:21:11 - Início do script process_auth.php
+2024-08-29 17:21:11 - Ação recebida: login
+2024-08-29 17:21:11 - Processando login de usuário.
+2024-08-29 17:21:11 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:21:11 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:21:11 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:21:11 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:21:11 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:21:11 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:21:11 - Finalizando script process_auth.php
+2024-08-29 17:21:24 - Início do script process_auth.php
+2024-08-29 17:21:24 - Ação recebida: login
+2024-08-29 17:21:24 - Processando login de usuário.
+2024-08-29 17:21:24 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:21:24 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:21:24 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:21:24 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:21:24 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:21:24 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:21:24 - Finalizando script process_auth.php
+2024-08-29 17:21:29 - Início do script process_auth.php
+2024-08-29 17:21:29 - Ação recebida: login
+2024-08-29 17:21:29 - Processando login de usuário.
+2024-08-29 17:21:29 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:21:29 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:21:29 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:21:29 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:21:29 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:21:29 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:21:29 - Finalizando script process_auth.php
+2024-08-29 17:21:41 - Início do script process_auth.php
+2024-08-29 17:21:41 - Ação recebida: login
+2024-08-29 17:21:41 - Processando login de usuário.
+2024-08-29 17:21:41 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:21:41 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:21:41 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:21:41 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:21:41 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:21:41 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:21:41 - Finalizando script process_auth.php
+2024-08-29 17:21:47 - Início do script process_auth.php
+2024-08-29 17:21:47 - Ação recebida: login
+2024-08-29 17:21:47 - Processando login de usuário.
+2024-08-29 17:21:47 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:21:47 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:21:47 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:21:47 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:21:47 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:21:47 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:21:47 - Finalizando script process_auth.php
+2024-08-29 17:22:51 - Início do script process_auth.php
+2024-08-29 17:22:51 - Ação recebida: login
+2024-08-29 17:22:51 - Processando login de usuário.
+2024-08-29 17:22:51 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:22:51 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:22:51 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:22:51 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:22:51 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:22:51 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:22:51 - Finalizando script process_auth.php
+2024-08-29 17:23:59 - Início do script process_clientes.php
+2024-08-29 17:23:59 - Ação recebida: remover
+2024-08-29 17:23:59 - Cliente 35 removido com sucesso.
+2024-08-29 17:23:59 - Finalizando script process_clientes.php
+2024-08-29 17:24:03 - Início do script get_cliente.php
+2024-08-29 17:24:03 - ID recebido: 26
+2024-08-29 17:24:03 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 17:24:03 - Finalizando script get_cliente.php
+2024-08-29 17:24:08 - Início do script get_cliente.php
+2024-08-29 17:24:08 - ID recebido: 31
+2024-08-29 17:24:08 - Cliente encontrado: {"id_usuario":31,"nome_usuario":"carlos desengrini","email":"carlosmaua@hotmail.com","telefone":"43999534710","cpf":"21863839925"}
+2024-08-29 17:24:08 - Finalizando script get_cliente.php
+2024-08-29 17:24:52 - Início do script process_auth.php
+2024-08-29 17:24:52 - Ação recebida: login
+2024-08-29 17:24:52 - Processando login de usuário.
+2024-08-29 17:24:52 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:24:53 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:24:53 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:24:53 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:24:53 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:24:53 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:24:53 - Finalizando script process_auth.php
+2024-08-29 17:26:29 - Início do script process_auth.php
+2024-08-29 17:26:29 - Ação recebida: login
+2024-08-29 17:26:29 - Processando login de usuário.
+2024-08-29 17:26:29 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:26:29 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:26:29 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:26:29 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:26:29 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:26:29 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:26:29 - Finalizando script process_auth.php
+2024-08-29 17:27:31 - Início do script process_auth.php
+2024-08-29 17:27:31 - Ação recebida: login
+2024-08-29 17:27:31 - Processando login de usuário.
+2024-08-29 17:27:31 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:27:31 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:27:31 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:27:31 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:27:31 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:27:31 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:27:31 - Finalizando script process_auth.php
+2024-08-29 17:28:00 - Início do script process_auth.php
+2024-08-29 17:28:00 - Ação recebida: login
+2024-08-29 17:28:00 - Processando login de usuário.
+2024-08-29 17:28:00 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:28:00 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:28:00 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:28:00 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:28:00 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:28:00 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:28:00 - Finalizando script process_auth.php
+2024-08-29 17:31:09 - Início do script process_auth.php
+2024-08-29 17:31:09 - Ação recebida: login
+2024-08-29 17:31:09 - Processando login de usuário.
+2024-08-29 17:31:09 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 17:31:09 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 17:31:09 - Valor de is_admin no banco de dados: 1
+2024-08-29 17:31:09 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 17:31:09 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 17:31:09 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 17:31:09 - Finalizando script process_auth.php
+2024-08-29 19:48:04 - Início do script process_auth.php
+2024-08-29 19:48:04 - Ação recebida: login
+2024-08-29 19:48:04 - Processando login de usuário.
+2024-08-29 19:48:04 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 19:48:04 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 19:48:04 - Valor de is_admin no banco de dados: 1
+2024-08-29 19:48:04 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 19:48:04 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 19:48:04 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 19:48:04 - Finalizando script process_auth.php
+2024-08-29 19:51:20 - Início do script process_auth.php
+2024-08-29 19:51:20 - Ação recebida: login
+2024-08-29 19:51:20 - Processando login de usuário.
+2024-08-29 19:51:20 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 19:51:20 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 19:51:20 - Valor de is_admin no banco de dados: 1
+2024-08-29 19:51:20 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 19:51:20 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 19:51:20 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 19:51:20 - Finalizando script process_auth.php
+2024-08-29 20:14:42 - Início do script get_cliente.php
+2024-08-29 20:14:42 - ID recebido: 26
+2024-08-29 20:14:42 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 20:14:42 - Finalizando script get_cliente.php
+2024-08-29 20:14:46 - Início do script get_cliente.php
+2024-08-29 20:14:46 - ID recebido: 26
+2024-08-29 20:14:46 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 20:14:46 - Finalizando script get_cliente.php
+2024-08-29 22:23:28 - Início do script process_auth.php
+2024-08-29 22:23:28 - Ação recebida: login
+2024-08-29 22:23:28 - Processando login de usuário.
+2024-08-29 22:23:28 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 22:23:29 - Senha incorreta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 22:23:29 - Finalizando script process_auth.php
+2024-08-29 22:23:32 - Início do script process_auth.php
+2024-08-29 22:23:32 - Ação recebida: login
+2024-08-29 22:23:32 - Processando login de usuário.
+2024-08-29 22:23:32 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-29 22:23:32 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-29 22:23:32 - Valor de is_admin no banco de dados: 1
+2024-08-29 22:23:32 - Valor de is_admin armazenado na sessão: 1
+2024-08-29 22:23:32 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-29 22:23:32 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-29 22:23:32 - Finalizando script process_auth.php
+2024-08-29 22:24:52 - Início do script get_cliente.php
+2024-08-29 22:24:52 - ID recebido: 26
+2024-08-29 22:24:52 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-29 22:24:52 - Finalizando script get_cliente.php
+2024-08-30 01:30:00 - Início do script get_cliente.php
+2024-08-30 01:30:00 - ID recebido: 26
+2024-08-30 01:30:00 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-30 01:30:00 - Finalizando script get_cliente.php
+2024-08-30 01:33:04 - Início do script get_cliente.php
+2024-08-30 01:33:04 - ID recebido: 26
+2024-08-30 01:33:04 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-30 01:33:04 - Finalizando script get_cliente.php
+2024-08-30 01:33:05 - Início do script get_cliente.php
+2024-08-30 01:33:05 - ID recebido: 31
+2024-08-30 01:33:05 - Cliente encontrado: {"id_usuario":31,"nome_usuario":"carlos desengrini","email":"carlosmaua@hotmail.com","telefone":"43999534710","cpf":"21863839925"}
+2024-08-30 01:33:05 - Finalizando script get_cliente.php
+2024-08-30 01:33:12 - Início do script get_cliente.php
+2024-08-30 01:33:12 - ID recebido: 34
+2024-08-30 01:33:12 - Cliente encontrado: {"id_usuario":34,"nome_usuario":"carlos desengrini","email":"carlosmausssa@hotmail.com","telefone":"43999534710","cpf":"231863839925"}
+2024-08-30 01:33:12 - Finalizando script get_cliente.php
+2024-08-30 01:35:28 - Início do script get_cliente.php
+2024-08-30 01:35:28 - ID recebido: 26
+2024-08-30 01:35:28 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-30 01:35:28 - Finalizando script get_cliente.php
+2024-08-30 01:35:32 - Início do script process_clientes.php
+2024-08-30 01:35:32 - Ação recebida: remover
+2024-08-30 01:35:32 - Cliente 34 removido com sucesso.
+2024-08-30 01:35:32 - Finalizando script process_clientes.php
+2024-08-30 01:35:37 - Início do script get_cliente.php
+2024-08-30 01:35:37 - ID recebido: 26
+2024-08-30 01:35:37 - Cliente encontrado: {"id_usuario":26,"nome_usuario":"Fernando Szkvarak Desengrini","email":"fernandodesengrini11@gmail.com","telefone":"(43) 99857-1428","cpf":"118.638.399-25"}
+2024-08-30 01:35:37 - Finalizando script get_cliente.php
+2024-08-30 01:37:11 - Início do script process_clientes.php
+2024-08-30 01:37:11 - Ação recebida: 
+2024-08-30 01:37:11 - Ação inválida ou não fornecida.
+2024-08-30 01:37:11 - Finalizando script process_clientes.php
+2024-08-30 01:37:25 - Início do script process_clientes.php
+2024-08-30 01:37:25 - Ação recebida: remover
+2024-08-30 01:37:25 - Cliente 31 removido com sucesso.
+2024-08-30 01:37:25 - Finalizando script process_clientes.php
+2024-08-30 01:37:45 - Início do script process_auth.php
+2024-08-30 01:37:45 - Ação recebida: register
+2024-08-30 01:37:45 - Finalizando script process_auth.php
+2024-08-30 01:38:00 - Início do script process_auth.php
+2024-08-30 01:38:00 - Ação recebida: register
+2024-08-30 01:38:00 - Finalizando script process_auth.php
+2024-08-30 01:38:04 - Início do script process_auth.php
+2024-08-30 01:38:04 - Ação recebida: register
+2024-08-30 01:38:04 - Finalizando script process_auth.php
+2024-08-30 01:38:05 - Início do script process_auth.php
+2024-08-30 01:38:05 - Ação recebida: register
+2024-08-30 01:38:05 - Finalizando script process_auth.php
+2024-08-30 01:38:05 - Início do script process_auth.php
+2024-08-30 01:38:05 - Ação recebida: register
+2024-08-30 01:38:05 - Finalizando script process_auth.php
+2024-08-30 01:38:06 - Início do script process_auth.php
+2024-08-30 01:38:06 - Ação recebida: register
+2024-08-30 01:38:06 - Finalizando script process_auth.php
+2024-08-30 01:38:06 - Início do script process_auth.php
+2024-08-30 01:38:06 - Ação recebida: register
+2024-08-30 01:38:06 - Finalizando script process_auth.php
+2024-08-30 01:38:11 - Início do script process_auth.php
+2024-08-30 01:38:11 - Ação recebida: register
+2024-08-30 01:38:11 - Finalizando script process_auth.php
+2024-08-30 01:38:13 - Início do script process_auth.php
+2024-08-30 01:38:13 - Ação recebida: register
+2024-08-30 01:38:13 - Finalizando script process_auth.php
+2024-08-30 01:38:16 - Início do script process_auth.php
+2024-08-30 01:38:16 - Ação recebida: register
+2024-08-30 01:38:16 - Finalizando script process_auth.php
+2024-08-30 01:38:20 - Início do script process_auth.php
+2024-08-30 01:38:20 - Ação recebida: register
+2024-08-30 01:38:20 - Finalizando script process_auth.php
+2024-08-30 01:38:35 - Início do script process_auth.php
+2024-08-30 01:38:35 - Ação recebida: register
+2024-08-30 01:38:35 - Finalizando script process_auth.php
+2024-08-30 01:43:19 - Início do script process_auth.php
+2024-08-30 01:43:19 - Ação recebida: register
+2024-08-30 01:43:19 - Processando registro de usuário.
+2024-08-30 01:43:19 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:19 - Finalizando script process_auth.php
+2024-08-30 01:43:20 - Início do script process_auth.php
+2024-08-30 01:43:20 - Ação recebida: register
+2024-08-30 01:43:20 - Processando registro de usuário.
+2024-08-30 01:43:20 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:20 - Finalizando script process_auth.php
+2024-08-30 01:43:20 - Início do script process_auth.php
+2024-08-30 01:43:20 - Ação recebida: register
+2024-08-30 01:43:20 - Processando registro de usuário.
+2024-08-30 01:43:20 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:20 - Finalizando script process_auth.php
+2024-08-30 01:43:20 - Início do script process_auth.php
+2024-08-30 01:43:20 - Ação recebida: register
+2024-08-30 01:43:20 - Processando registro de usuário.
+2024-08-30 01:43:20 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:20 - Finalizando script process_auth.php
+2024-08-30 01:43:22 - Início do script process_auth.php
+2024-08-30 01:43:22 - Ação recebida: register
+2024-08-30 01:43:22 - Processando registro de usuário.
+2024-08-30 01:43:22 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:22 - Finalizando script process_auth.php
+2024-08-30 01:43:24 - Início do script process_auth.php
+2024-08-30 01:43:24 - Ação recebida: register
+2024-08-30 01:43:24 - Processando registro de usuário.
+2024-08-30 01:43:24 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:24 - Finalizando script process_auth.php
+2024-08-30 01:43:24 - Início do script process_auth.php
+2024-08-30 01:43:24 - Ação recebida: register
+2024-08-30 01:43:24 - Processando registro de usuário.
+2024-08-30 01:43:24 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:24 - Finalizando script process_auth.php
+2024-08-30 01:43:27 - Início do script process_auth.php
+2024-08-30 01:43:27 - Ação recebida: register
+2024-08-30 01:43:27 - Processando registro de usuário.
+2024-08-30 01:43:27 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:27 - Finalizando script process_auth.php
+2024-08-30 01:43:27 - Início do script process_auth.php
+2024-08-30 01:43:27 - Ação recebida: register
+2024-08-30 01:43:27 - Processando registro de usuário.
+2024-08-30 01:43:27 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:27 - Finalizando script process_auth.php
+2024-08-30 01:43:27 - Início do script process_auth.php
+2024-08-30 01:43:27 - Ação recebida: register
+2024-08-30 01:43:27 - Processando registro de usuário.
+2024-08-30 01:43:27 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:27 - Finalizando script process_auth.php
+2024-08-30 01:43:27 - Início do script process_auth.php
+2024-08-30 01:43:27 - Ação recebida: register
+2024-08-30 01:43:27 - Processando registro de usuário.
+2024-08-30 01:43:27 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:27 - Finalizando script process_auth.php
+2024-08-30 01:43:27 - Início do script process_auth.php
+2024-08-30 01:43:27 - Ação recebida: register
+2024-08-30 01:43:27 - Processando registro de usuário.
+2024-08-30 01:43:27 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:27 - Finalizando script process_auth.php
+2024-08-30 01:43:28 - Início do script process_auth.php
+2024-08-30 01:43:28 - Ação recebida: register
+2024-08-30 01:43:28 - Processando registro de usuário.
+2024-08-30 01:43:28 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:28 - Finalizando script process_auth.php
+2024-08-30 01:43:32 - Início do script process_auth.php
+2024-08-30 01:43:32 - Ação recebida: register
+2024-08-30 01:43:32 - Processando registro de usuário.
+2024-08-30 01:43:32 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:32 - Finalizando script process_auth.php
+2024-08-30 01:43:33 - Início do script process_auth.php
+2024-08-30 01:43:33 - Ação recebida: register
+2024-08-30 01:43:33 - Processando registro de usuário.
+2024-08-30 01:43:33 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:33 - Finalizando script process_auth.php
+2024-08-30 01:43:33 - Início do script process_auth.php
+2024-08-30 01:43:33 - Ação recebida: register
+2024-08-30 01:43:33 - Processando registro de usuário.
+2024-08-30 01:43:33 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:33 - Finalizando script process_auth.php
+2024-08-30 01:43:33 - Início do script process_auth.php
+2024-08-30 01:43:33 - Ação recebida: register
+2024-08-30 01:43:33 - Processando registro de usuário.
+2024-08-30 01:43:33 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:33 - Finalizando script process_auth.php
+2024-08-30 01:43:34 - Início do script process_auth.php
+2024-08-30 01:43:34 - Ação recebida: register
+2024-08-30 01:43:34 - Processando registro de usuário.
+2024-08-30 01:43:34 - Campos obrigatórios não preenchidos.
+2024-08-30 01:43:34 - Finalizando script process_auth.php
+2024-08-30 01:52:14 - Início do script process_auth.php
+2024-08-30 01:52:14 - Ação recebida: register
+2024-08-30 01:52:14 - Processando registro de usuário.
+2024-08-30 01:52:14 - Campos obrigatórios não preenchidos.
+2024-08-30 01:52:14 - Finalizando script process_auth.php
+2024-08-30 01:52:15 - Início do script process_auth.php
+2024-08-30 01:52:15 - Ação recebida: register
+2024-08-30 01:52:15 - Processando registro de usuário.
+2024-08-30 01:52:15 - Campos obrigatórios não preenchidos.
+2024-08-30 01:52:15 - Finalizando script process_auth.php
+2024-08-30 01:55:14 - Início do script process_auth.php
+2024-08-30 01:55:14 - Ação recebida: register
+2024-08-30 01:55:14 - Processando registro de usuário.
+2024-08-30 01:55:14 - Campos obrigatórios não preenchidos.
+2024-08-30 01:55:14 - Finalizando script process_auth.php
+2024-08-30 02:03:24 - Início do script process_auth.php
+2024-08-30 02:03:24 - Ação recebida: register
+2024-08-30 02:03:24 - Processando registro de usuário.
+2024-08-30 02:03:24 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 02:03:24 - Finalizando script process_auth.php
+2024-08-30 02:13:54 - Início do script process_auth.php
+2024-08-30 02:13:54 - Ação recebida: register
+2024-08-30 02:13:54 - Processando registro de usuário.
+2024-08-30 02:13:54 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 02:13:54 - Finalizando script process_auth.php
+2024-08-30 02:14:17 - Início do script process_auth.php
+2024-08-30 02:14:17 - Ação recebida: register
+2024-08-30 02:14:17 - Processando registro de usuário.
+2024-08-30 02:14:17 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 02:14:17 - Finalizando script process_auth.php
+2024-08-30 02:14:25 - Início do script process_auth.php
+2024-08-30 02:14:25 - Ação recebida: register
+2024-08-30 02:14:25 - Processando registro de usuário.
+2024-08-30 02:14:25 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 02:14:25 - Finalizando script process_auth.php
+2024-08-30 02:15:19 - Início do script process_auth.php
+2024-08-30 02:15:19 - Ação recebida: register
+2024-08-30 02:15:19 - Processando registro de usuário.
+2024-08-30 02:15:19 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 02:15:19 - Finalizando script process_auth.php
+2024-08-30 02:15:20 - Início do script process_auth.php
+2024-08-30 02:15:20 - Ação recebida: register
+2024-08-30 02:15:20 - Processando registro de usuário.
+2024-08-30 02:15:20 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 02:15:20 - Finalizando script process_auth.php
+2024-08-30 02:15:21 - Início do script process_auth.php
+2024-08-30 02:15:21 - Ação recebida: register
+2024-08-30 02:15:21 - Processando registro de usuário.
+2024-08-30 02:15:21 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 02:15:21 - Finalizando script process_auth.php
+2024-08-30 02:15:21 - Início do script process_auth.php
+2024-08-30 02:15:21 - Ação recebida: register
+2024-08-30 02:15:21 - Processando registro de usuário.
+2024-08-30 02:15:21 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 02:15:21 - Finalizando script process_auth.php
+2024-08-30 02:15:21 - Início do script process_auth.php
+2024-08-30 02:15:21 - Ação recebida: register
+2024-08-30 02:15:21 - Processando registro de usuário.
+2024-08-30 02:15:21 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 02:15:21 - Finalizando script process_auth.php
+2024-08-30 02:15:25 - Início do script process_auth.php
+2024-08-30 02:15:25 - Ação recebida: login
+2024-08-30 02:15:25 - Finalizando script process_auth.php
+2024-08-30 02:15:27 - Início do script process_auth.php
+2024-08-30 02:15:27 - Ação recebida: login
+2024-08-30 02:15:27 - Finalizando script process_auth.php
+2024-08-30 02:18:29 - Início do script process_auth.php
+2024-08-30 02:18:29 - Ação recebida: login
+2024-08-30 02:18:29 - Processando login de usuário.
+2024-08-30 02:18:29 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 02:18:29 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 02:18:29 - Valor de is_admin no banco de dados: 1
+2024-08-30 02:18:29 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 02:18:29 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 02:18:29 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 02:18:29 - Finalizando script process_auth.php
+2024-08-30 02:18:39 - Início do script process_auth.php
+2024-08-30 02:18:39 - Ação recebida: register
+2024-08-30 02:18:39 - Processando registro de usuário.
+2024-08-30 02:18:39 - Usuário registrado com sucesso: gleicitais@gmail.com
+2024-08-30 02:18:39 - Finalizando script process_auth.php
+2024-08-30 02:18:53 - Início do script process_auth.php
+2024-08-30 02:18:53 - Ação recebida: login
+2024-08-30 02:18:53 - Processando login de usuário.
+2024-08-30 02:18:53 - Usuário encontrado: gleicitais@gmail.com
+2024-08-30 02:18:53 - Senha correta para usuário: gleicitais@gmail.com
+2024-08-30 02:18:53 - Valor de is_admin no banco de dados: 0
+2024-08-30 02:18:53 - Valor de is_admin armazenado na sessão: 0
+2024-08-30 02:18:53 - Valor de $_SESSION['user_id'] após login: 46
+2024-08-30 02:18:53 - Valor de $_SESSION['is_admin'] após login: 0
+2024-08-30 02:18:53 - Finalizando script process_auth.php
+2024-08-30 02:24:02 - Início do script process_auth.php
+2024-08-30 02:24:02 - Ação recebida: login
+2024-08-30 02:24:02 - Processando login de usuário.
+2024-08-30 02:24:02 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 02:24:02 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 02:24:02 - Valor de is_admin no banco de dados: 1
+2024-08-30 02:24:02 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 02:24:02 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 02:24:02 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 02:24:02 - Finalizando script process_auth.php
+2024-08-30 02:24:47 - Início do script process_auth.php
+2024-08-30 02:24:47 - Ação recebida: login
+2024-08-30 02:24:47 - Processando login de usuário.
+2024-08-30 02:24:47 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 02:24:47 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 02:24:47 - Valor de is_admin no banco de dados: 1
+2024-08-30 02:24:47 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 02:24:47 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 02:24:47 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 02:24:47 - Finalizando script process_auth.php
+2024-08-30 02:47:56 - Início do script process_clientes.php
+2024-08-30 02:47:56 - Ação recebida: 
+2024-08-30 02:47:56 - Ação inválida ou não fornecida.
+2024-08-30 02:47:56 - Finalizando script process_clientes.php
+2024-08-30 03:29:25 - Início do script process_clientes.php
+2024-08-30 03:29:25 - Ação recebida: 
+2024-08-30 03:29:25 - Ação inválida ou não fornecida.
+2024-08-30 03:29:25 - Finalizando script process_clientes.php
+2024-08-30 03:29:39 - Início do script process_clientes.php
+2024-08-30 03:29:39 - Ação recebida: tornar_admin
+2024-08-30 03:29:39 - Usuário 26 promovido a admin com sucesso.
+2024-08-30 03:29:39 - Finalizando script process_clientes.php
+2024-08-30 03:29:47 - Início do script process_clientes.php
+2024-08-30 03:29:47 - Ação recebida: tornar_admin
+2024-08-30 03:29:47 - Usuário 46 promovido a admin com sucesso.
+2024-08-30 03:29:47 - Finalizando script process_clientes.php
+2024-08-30 03:30:03 - Início do script process_clientes.php
+2024-08-30 03:30:03 - Ação recebida: remover
+2024-08-30 03:30:03 - Cliente 46 removido com sucesso.
+2024-08-30 03:30:03 - Finalizando script process_clientes.php
+2024-08-30 03:30:52 - Início do script process_clientes.php
+2024-08-30 03:30:52 - Ação recebida: 
+2024-08-30 03:30:52 - Ação inválida ou não fornecida.
+2024-08-30 03:30:52 - Finalizando script process_clientes.php
+2024-08-30 03:31:16 - Início do script process_auth.php
+2024-08-30 03:31:16 - Ação recebida: register
+2024-08-30 03:31:16 - Processando registro de usuário.
+2024-08-30 03:31:16 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 03:31:16 - Finalizando script process_auth.php
+2024-08-30 03:31:17 - Início do script process_auth.php
+2024-08-30 03:31:17 - Ação recebida: register
+2024-08-30 03:31:17 - Processando registro de usuário.
+2024-08-30 03:31:18 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 03:31:18 - Finalizando script process_auth.php
+2024-08-30 03:31:18 - Início do script process_auth.php
+2024-08-30 03:31:18 - Ação recebida: register
+2024-08-30 03:31:18 - Processando registro de usuário.
+2024-08-30 03:31:18 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 03:31:18 - Finalizando script process_auth.php
+2024-08-30 03:31:18 - Início do script process_auth.php
+2024-08-30 03:31:18 - Ação recebida: register
+2024-08-30 03:31:18 - Processando registro de usuário.
+2024-08-30 03:31:18 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 03:31:18 - Finalizando script process_auth.php
+2024-08-30 03:31:18 - Início do script process_auth.php
+2024-08-30 03:31:18 - Ação recebida: register
+2024-08-30 03:31:18 - Processando registro de usuário.
+2024-08-30 03:31:18 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 03:31:18 - Finalizando script process_auth.php
+2024-08-30 03:31:18 - Início do script process_auth.php
+2024-08-30 03:31:18 - Ação recebida: register
+2024-08-30 03:31:18 - Processando registro de usuário.
+2024-08-30 03:31:18 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 03:31:18 - Finalizando script process_auth.php
+2024-08-30 03:31:36 - Início do script process_auth.php
+2024-08-30 03:31:36 - Ação recebida: login
+2024-08-30 03:31:36 - Processando login de usuário.
+2024-08-30 03:31:36 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 03:31:36 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 03:31:36 - Valor de is_admin no banco de dados: 1
+2024-08-30 03:31:36 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 03:31:36 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 03:31:36 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 03:31:36 - Finalizando script process_auth.php
+2024-08-30 03:31:48 - Início do script process_auth.php
+2024-08-30 03:31:48 - Ação recebida: register
+2024-08-30 03:31:48 - Processando registro de usuário.
+2024-08-30 03:31:48 - Usuário registrado com sucesso: gleicitais@gmail.com
+2024-08-30 03:31:48 - Finalizando script process_auth.php
+2024-08-30 03:31:56 - Início do script process_auth.php
+2024-08-30 03:31:56 - Ação recebida: login
+2024-08-30 03:31:56 - Processando login de usuário.
+2024-08-30 03:31:56 - Usuário não encontrado: fernandodesengrini12@gmail.com
+2024-08-30 03:31:56 - Finalizando script process_auth.php
+2024-08-30 03:32:05 - Início do script process_auth.php
+2024-08-30 03:32:05 - Ação recebida: register
+2024-08-30 03:32:05 - Processando registro de usuário.
+2024-08-30 03:32:05 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 03:32:05 - Finalizando script process_auth.php
+2024-08-30 03:32:08 - Início do script process_auth.php
+2024-08-30 03:32:08 - Ação recebida: register
+2024-08-30 03:32:08 - Processando registro de usuário.
+2024-08-30 03:32:08 - Erro ao registrar usuário: Duplicate entry '118.638.399-25' for key 'cpf'
+2024-08-30 03:32:08 - Finalizando script process_auth.php
+2024-08-30 03:32:11 - Início do script process_auth.php
+2024-08-30 03:32:11 - Ação recebida: register
+2024-08-30 03:32:11 - Processando registro de usuário.
+2024-08-30 03:32:11 - Usuário registrado com sucesso: fernandodesengrini12@gmail.com
+2024-08-30 03:32:11 - Finalizando script process_auth.php
+2024-08-30 03:32:28 - Início do script process_auth.php
+2024-08-30 03:32:28 - Ação recebida: register
+2024-08-30 03:32:28 - Processando registro de usuário.
+2024-08-30 03:32:28 - Usuário registrado com sucesso: fdesengrini@edu.unifil.br
+2024-08-30 03:32:28 - Finalizando script process_auth.php
+2024-08-30 03:32:46 - Início do script process_auth.php
+2024-08-30 03:32:46 - Ação recebida: register
+2024-08-30 03:32:46 - Processando registro de usuário.
+2024-08-30 03:32:46 - Usuário registrado com sucesso: fdesdengrini@edu.unifils
+2024-08-30 03:32:46 - Finalizando script process_auth.php
+2024-08-30 03:39:43 - Início do script process_auth.php
+2024-08-30 03:39:43 - Ação recebida: login
+2024-08-30 03:39:43 - Processando login de usuário.
+2024-08-30 03:39:43 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 03:39:43 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 03:39:43 - Valor de is_admin no banco de dados: 1
+2024-08-30 03:39:43 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 03:39:43 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 03:39:43 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 03:39:43 - Finalizando script process_auth.php
+2024-08-30 03:40:33 - Início do script process_auth.php
+2024-08-30 03:40:33 - Ação recebida: login
+2024-08-30 03:40:33 - Processando login de usuário.
+2024-08-30 03:40:33 - Usuário não encontrado: fernandodesengrini11@gmail.com
+2024-08-30 03:40:33 - Finalizando script process_auth.php
+2024-08-30 03:40:54 - Início do script process_auth.php
+2024-08-30 03:40:54 - Ação recebida: login
+2024-08-30 03:40:54 - Processando login de usuário.
+2024-08-30 03:40:54 - Usuário encontrado: usuarioadmin@gmail.com
+2024-08-30 03:40:54 - Senha correta para usuário: usuarioadmin@gmail.com
+2024-08-30 03:40:54 - Valor de is_admin no banco de dados: 1
+2024-08-30 03:40:54 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 03:40:54 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 03:40:54 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 03:40:54 - Finalizando script process_auth.php
+2024-08-30 04:12:10 - Início do script process_auth.php
+2024-08-30 04:12:10 - Ação recebida: register
+2024-08-30 04:12:10 - Processando registro de usuário.
+2024-08-30 04:12:10 - Email já registrado: gleicitais@gmail.com
+2024-08-30 04:12:10 - Finalizando script process_auth.php
+2024-08-30 04:12:13 - Início do script process_auth.php
+2024-08-30 04:12:13 - Ação recebida: register
+2024-08-30 04:12:13 - Processando registro de usuário.
+2024-08-30 04:12:13 - Email já registrado: gleicitais@gmail.com
+2024-08-30 04:12:13 - Finalizando script process_auth.php
+2024-08-30 04:13:22 - Início do script process_auth.php
+2024-08-30 04:13:22 - Ação recebida: register
+2024-08-30 04:13:22 - Processando registro de usuário.
+2024-08-30 04:13:22 - Email já registrado: gleicitais@gmail.com
+2024-08-30 04:13:22 - Finalizando script process_auth.php
+2024-08-30 04:13:25 - Início do script process_auth.php
+2024-08-30 04:13:25 - Ação recebida: register
+2024-08-30 04:13:25 - Processando registro de usuário.
+2024-08-30 04:13:25 - Usuário registrado com sucesso: gleicasdasdasdasdtais@gmail.com
+2024-08-30 04:13:25 - Finalizando script process_auth.php
+2024-08-30 04:13:34 - Início do script process_auth.php
+2024-08-30 04:13:34 - Ação recebida: login
+2024-08-30 04:13:34 - Processando login de usuário.
+2024-08-30 04:13:34 - Usuário não encontrado: fernandodesengrini11@gmail.com
+2024-08-30 04:13:34 - Finalizando script process_auth.php
+2024-08-30 04:13:35 - Início do script process_auth.php
+2024-08-30 04:13:35 - Ação recebida: login
+2024-08-30 04:13:35 - Processando login de usuário.
+2024-08-30 04:13:35 - Usuário não encontrado: fernandodesengrini11@gmail.com
+2024-08-30 04:13:35 - Finalizando script process_auth.php
+2024-08-30 04:13:43 - Início do script process_auth.php
+2024-08-30 04:13:43 - Ação recebida: login
+2024-08-30 04:13:43 - Processando login de usuário.
+2024-08-30 04:13:43 - Usuário encontrado: usuarioadmin@gmail.com
+2024-08-30 04:13:43 - Senha correta para usuário: usuarioadmin@gmail.com
+2024-08-30 04:13:43 - Valor de is_admin no banco de dados: 1
+2024-08-30 04:13:43 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 04:13:43 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 04:13:43 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 04:13:43 - Finalizando script process_auth.php
+2024-08-30 04:14:39 - Início do script process_clientes.php
+2024-08-30 04:14:39 - Ação recebida: tornar_admin
+2024-08-30 04:14:39 - Usuário 53 promovido a admin com sucesso.
+2024-08-30 04:14:39 - Finalizando script process_clientes.php
+2024-08-30 04:14:43 - Início do script process_clientes.php
+2024-08-30 04:14:43 - Ação recebida: tornar_admin
+2024-08-30 04:14:43 - Usuário 56 promovido a admin com sucesso.
+2024-08-30 04:14:43 - Finalizando script process_clientes.php
+2024-08-30 04:15:27 - Início do script process_auth.php
+2024-08-30 04:15:27 - Ação recebida: login
+2024-08-30 04:15:27 - Processando login de usuário.
+2024-08-30 04:15:27 - Usuário não encontrado: fdesengrini@edu.unifil
+2024-08-30 04:15:27 - Finalizando script process_auth.php
+2024-08-30 04:15:35 - Início do script process_auth.php
+2024-08-30 04:15:35 - Ação recebida: login
+2024-08-30 04:15:35 - Processando login de usuário.
+2024-08-30 04:15:35 - Usuário não encontrado: fdesengrini@edu.unifils
+2024-08-30 04:15:35 - Finalizando script process_auth.php
+2024-08-30 04:15:43 - Início do script process_auth.php
+2024-08-30 04:15:43 - Ação recebida: login
+2024-08-30 04:15:43 - Processando login de usuário.
+2024-08-30 04:15:43 - Usuário encontrado: fdesengrini@edu.unifil.br
+2024-08-30 04:15:43 - Senha correta para usuário: fdesengrini@edu.unifil.br
+2024-08-30 04:15:43 - Valor de is_admin no banco de dados: 0
+2024-08-30 04:15:43 - Valor de is_admin armazenado na sessão: 0
+2024-08-30 04:15:43 - Valor de $_SESSION['user_id'] após login: 57
+2024-08-30 04:15:43 - Valor de $_SESSION['is_admin'] após login: 0
+2024-08-30 04:15:43 - Finalizando script process_auth.php
+2024-08-30 04:40:02 - Início do script process_auth.php
+2024-08-30 04:40:02 - Ação recebida: login
+2024-08-30 04:40:02 - Processando login de usuário.
+2024-08-30 04:40:02 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 04:40:02 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 04:40:02 - Valor de is_admin no banco de dados: 1
+2024-08-30 04:40:02 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 04:40:02 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 04:40:02 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 04:40:02 - Finalizando script process_auth.php
+2024-08-30 07:30:54 - Início do script process_auth.php
+2024-08-30 07:30:54 - Ação recebida: login
+2024-08-30 07:30:54 - Processando login de usuário.
+2024-08-30 07:30:54 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 07:30:54 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 07:30:54 - Valor de is_admin no banco de dados: 1
+2024-08-30 07:30:54 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 07:30:54 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 07:30:54 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 07:30:54 - Finalizando script process_auth.php
+2024-08-30 07:38:48 - Início do script process_auth.php
+2024-08-30 07:38:48 - Ação recebida: login
+2024-08-30 07:38:48 - Processando login de usuário.
+2024-08-30 07:38:48 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 07:38:48 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 07:38:48 - Valor de is_admin no banco de dados: 1
+2024-08-30 07:38:48 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 07:38:48 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 07:38:48 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 07:38:48 - Finalizando script process_auth.php

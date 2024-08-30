@@ -34,6 +34,16 @@
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
         }
 
+        .brand-text {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #000000; /* Cor preta para o texto */
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
         .login-container {
             position: absolute;
             right: 30px;
@@ -102,6 +112,7 @@
 <body>
 
     <div class="background-container">
+        <div class="brand-text">Tais Crochês</div>
         <div class="login-container">
             <div class="login-box">
                 <h1>Login</h1>

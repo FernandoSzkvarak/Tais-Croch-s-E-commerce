@@ -1,10 +1,15 @@
+<?php
+// Verifica se estamos na raiz ou em um subdiretório
+$basePath = (basename($_SERVER['SCRIPT_NAME']) == 'index.php') ? '.' : '..';
+?>
+
 <!-- footer.php -->
 <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2024 Tais Crochês. Todos os direitos reservados.</p>
     <p>
-        <a href="sobre.php" class="text-white">Sobre Nós</a> |
-        <a href="contato.php" class="text-white">Contato</a> |
-        <a href="p_privacidade.php" class="text-white">Política de Privacidade</a>
+        <a href="<?php echo $basePath; ?>/sobre.php" class="text-white">Sobre Nós</a> |
+        <a href="<?php echo $basePath; ?>/contato.php" class="text-white">Contato</a> |
+        <a href="<?php echo $basePath; ?>/p_privacidade.php" class="text-white">Política de Privacidade</a>
     </p>
 </footer>
 

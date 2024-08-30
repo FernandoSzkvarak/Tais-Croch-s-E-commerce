@@ -1,0 +1,302 @@
+2024-08-29 07:13:22 - Início do script admin.php
+2024-08-29 07:13:22 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:13:22 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:13:22 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:13:44 - Início do script admin.php
+2024-08-29 07:13:44 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:13:44 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:13:44 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:13:45 - Início do script admin.php
+2024-08-29 07:13:45 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:13:45 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:13:45 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:14:10 - Início do script admin.php
+2024-08-29 07:14:10 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:14:10 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:14:10 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:14:11 - Início do script admin produtos.php
+2024-08-29 07:14:11 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:14:11 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:14:11 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:17:29 - Início do script admin.php
+2024-08-29 07:17:29 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:17:29 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:17:29 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:25:31 - Início do script admin.php
+2024-08-29 07:25:31 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:25:31 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:25:31 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:25:32 - Início do script admin produtos.php
+2024-08-29 07:25:32 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:25:32 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:25:32 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:25:32 - Início do script admin.php
+2024-08-29 07:25:32 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:25:32 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:25:32 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:30:42 - Início do script admin.php
+2024-08-29 07:30:42 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:30:42 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:30:42 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:30:42 - Início do script admin produtos.php
+2024-08-29 07:30:42 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:30:42 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:30:42 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:30:45 - Início do script admin.php
+2024-08-29 07:30:45 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:30:45 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:30:45 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:30:51 - Início do script admin.php
+2024-08-29 07:30:51 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:30:51 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:30:51 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:32:54 - Início do script admin.php
+2024-08-29 07:32:54 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:32:54 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:32:54 - Usuário autorizado, carregando página admin.php
+2024-08-29 07:33:42 - Início do script admin.php
+2024-08-29 07:33:42 - Valor de $_SESSION['user_id']: 26
+2024-08-29 07:33:42 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 07:33:42 - Usuário autorizado, carregando página admin.php
+2024-08-29 16:51:40 - Início do script admin.php
+2024-08-29 16:51:40 - Valor de $_SESSION['user_id']: 26
+2024-08-29 16:51:40 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 16:51:40 - Usuário autorizado, carregando página admin.php
+2024-08-29 16:51:41 - Início do script admin produtos.php
+2024-08-29 16:51:41 - Valor de $_SESSION['user_id']: 26
+2024-08-29 16:51:41 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 16:51:41 - Usuário autorizado, carregando página admin.php
+2024-08-29 16:51:42 - Início do script admin.php
+2024-08-29 16:51:42 - Valor de $_SESSION['user_id']: 26
+2024-08-29 16:51:42 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 16:51:42 - Usuário autorizado, carregando página admin.php
+2024-08-29 16:59:08 - Início do script admin.php
+2024-08-29 16:59:08 - Valor de $_SESSION['user_id']: 26
+2024-08-29 16:59:08 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 16:59:08 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:01:33 - Início do script admin.php
+2024-08-29 17:01:33 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:01:33 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:01:33 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:01:54 - Início do script admin.php
+2024-08-29 17:01:54 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:01:54 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:01:54 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:01:58 - Início do script admin produtos.php
+2024-08-29 17:01:58 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:01:58 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:01:58 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:05:25 - Início do script admin.php
+2024-08-29 17:05:25 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:05:25 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:05:25 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:05:26 - Início do script admin produtos.php
+2024-08-29 17:05:26 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:05:26 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:05:26 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:06:18 - Início do script admin.php
+2024-08-29 17:06:18 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:06:18 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:06:18 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:06:20 - Início do script admin produtos.php
+2024-08-29 17:06:20 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:06:20 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:06:20 - Usuário não autorizado, redirecionando para index.php
+2024-08-29 17:06:24 - Início do script admin.php
+2024-08-29 17:06:24 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:06:24 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:06:24 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:06:25 - Início do script admin produtos.php
+2024-08-29 17:06:25 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:06:25 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:06:25 - Usuário não autorizado, redirecionando para index.php
+2024-08-29 17:06:28 - Início do script admin.php
+2024-08-29 17:06:28 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:06:28 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:06:28 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:07:08 - Início do script admin.php
+2024-08-29 17:07:08 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:07:08 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:07:08 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:07:20 - Início do script admin.php
+2024-08-29 17:07:20 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:07:20 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:07:20 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:07:21 - Início do script admin_produtos.php
+2024-08-29 17:07:21 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:07:21 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:07:21 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:07:24 - Início do script admin.php
+2024-08-29 17:07:24 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:07:24 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:07:24 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:09:02 - Início do script admin.php
+2024-08-29 17:09:02 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:09:02 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:09:02 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:09:03 - Início do script admin_produtos.php
+2024-08-29 17:09:03 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:09:03 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:09:03 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:09:21 - Início do script admin.php
+2024-08-29 17:09:21 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:09:21 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:09:21 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:09:22 - Início do script admin_produtos.php
+2024-08-29 17:09:22 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:09:22 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:09:22 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:12:38 - Início do script admin.php
+2024-08-29 17:12:38 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:12:38 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:12:38 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:12:38 - Início do script admin_produtos.php
+2024-08-29 17:12:38 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:12:38 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:12:38 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:13:09 - Início do script admin.php
+2024-08-29 17:13:09 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:13:09 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:13:09 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:13:09 - Início do script admin_produtos.php
+2024-08-29 17:13:09 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:13:09 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:13:09 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:13:13 - Início do script admin.php
+2024-08-29 17:13:13 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:13:13 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:13:13 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:14:21 - Início do script admin.php
+2024-08-29 17:14:21 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:14:21 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:14:21 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:14:22 - Início do script admin.php
+2024-08-29 17:14:22 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:14:22 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:14:22 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:14:23 - Início do script admin.php
+2024-08-29 17:14:23 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:14:23 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:14:23 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:14:28 - Início do script admin.php
+2024-08-29 17:14:28 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:14:28 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:14:28 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:14:29 - Início do script admin.php
+2024-08-29 17:14:29 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:14:29 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:14:29 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:19:45 - Início do script admin.php
+2024-08-29 17:19:45 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:19:45 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:19:45 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:20:53 - Início do script admin.php
+2024-08-29 17:20:53 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:20:53 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:20:53 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:20:54 - Início do script admin_produtos.php
+2024-08-29 17:20:54 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:20:54 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:20:54 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:21:51 - Início do script admin.php
+2024-08-29 17:21:51 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:21:51 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:21:51 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:21:52 - Início do script admin_produtos.php
+2024-08-29 17:21:52 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:21:52 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:21:52 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:22:42 - Início do script admin.php
+2024-08-29 17:22:42 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:22:42 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:22:42 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:22:56 - Início do script admin.php
+2024-08-29 17:22:56 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:22:56 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:22:56 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:22:57 - Início do script admin_produtos.php
+2024-08-29 17:22:57 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:23:03 - Início do script admin.php
+2024-08-29 17:23:03 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:23:03 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:23:03 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:23:21 - Início do script admin.php
+2024-08-29 17:23:21 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:23:21 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:23:21 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:23:46 - Início do script admin.php
+2024-08-29 17:23:46 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:23:46 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:23:46 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:24:16 - Início do script admin.php
+2024-08-29 17:24:16 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:24:16 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:24:16 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:24:17 - Início do script admin_produtos.php
+2024-08-29 17:24:17 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:24:57 - Início do script admin.php
+2024-08-29 17:24:57 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:24:57 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:24:57 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:24:58 - Início do script admin_produtos.php
+2024-08-29 17:24:58 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:25:01 - Início do script admin.php
+2024-08-29 17:25:01 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:25:01 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:25:01 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:25:03 - Início do script admin_produtos.php
+2024-08-29 17:25:03 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:26:02 - Início do script admin.php
+2024-08-29 17:26:02 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:26:02 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:26:02 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:26:03 - Início do script admin_produtos.php
+2024-08-29 17:26:03 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:26:19 - Início do script admin.php
+2024-08-29 17:26:19 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:26:19 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:26:19 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:26:20 - Início do script admin_produtos.php
+2024-08-29 17:26:20 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:26:34 - Início do script admin.php
+2024-08-29 17:26:34 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:26:34 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:26:34 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:26:35 - Início do script admin_produtos.php
+2024-08-29 17:26:35 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:27:36 - Início do script admin.php
+2024-08-29 17:27:36 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:27:36 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:27:36 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:27:37 - Início do script admin_produtos.php
+2024-08-29 17:27:37 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:28:04 - Início do script admin.php
+2024-08-29 17:28:04 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:28:04 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:28:04 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:28:05 - Início do script admin_produtos.php
+2024-08-29 17:28:05 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:29:48 - Início do script admin_produtos.php
+2024-08-29 17:29:48 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:29:49 - Início do script admin_produtos.php
+2024-08-29 17:29:49 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:29:54 - Início do script admin_produtos.php
+2024-08-29 17:29:54 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:30:07 - Início do script admin_produtos.php
+2024-08-29 17:30:07 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:30:08 - Início do script admin_produtos.php
+2024-08-29 17:30:08 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:30:10 - Início do script admin_produtos.php
+2024-08-29 17:30:10 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:30:25 - Início do script admin_produtos.php
+2024-08-29 17:30:25 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:30:59 - Início do script admin_produtos.php
+2024-08-29 17:30:59 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:31:26 - Início do script admin_produtos.php
+2024-08-29 17:31:26 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:31:32 - Início do script admin_produtos.php
+2024-08-29 17:31:32 - Usuário autorizado, carregando página admin.php
+2024-08-29 17:31:33 - Início do script admin_produtos.php
+2024-08-29 17:31:33 - Valor de $_SESSION['user_id']: 26
+2024-08-29 17:31:33 - Valor de $_SESSION['is_admin']: 1
+2024-08-29 17:31:33 - Usuário autorizado, carregando página admin.php

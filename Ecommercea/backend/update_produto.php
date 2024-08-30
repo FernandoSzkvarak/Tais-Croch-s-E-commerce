@@ -11,7 +11,7 @@ error_reporting(E_ALL);
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $product_id = $_POST['product-id'];
     $name = trim($_POST['nome-produto']);
-    $price = str_replace(',', '.', $_POST['preco-produto']);
+    $price = isset($_POST['preco-produto']) ? str_replace(',', '.', $_POST['preco-produto']) : null;
     $stock = $_POST['estoque-produto'];
     $description = trim($_POST['descricao-produto']);
     $image = $_FILES['imagem-produto']['name'] ?? '';
@@ -19,17 +19,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validação dos campos
     if (empty($name)) {
         $response['message'] = "O nome do produto não pode ser vazio.";
-    } elseif (empty($price) || !is_numeric($price) || $price < 0) {
-        $response['message'] = "O preço do produto não pode ser vazio ou negativo.";
+    } elseif (!is_null($price) && (!is_numeric($price) || $price < 0)) {
+        $response['message'] = "O preço do produto não pode ser negativo.";
     } elseif (empty($stock) || !is_numeric($stock) || $stock < 0) {
         $response['message'] = "O estoque do produto não pode ser vazio ou negativo.";
     } elseif (empty($description)) {
         $response['message'] = "A descrição do produto não pode ser vazia.";
     } else {
-        // Atualização do produto sem alterar a imagem
-        $sql = "UPDATE produtos SET nome_produto = ?, preco = ?, estoque = ?, descricao = ? WHERE id_produto = ?";
-        $stmt = $conn->prepare($sql);
-        $stmt->bind_param("sdiss", $name, $price, $stock, $description, $product_id);
+        // Atualização do produto sem alterar a imagem (e sem alterar o preço se não fornecido)
+        if (is_null($price)) {
+            $sql = "UPDATE produtos SET nome_produto = ?, estoque = ?, descricao = ? WHERE id_produto = ?";
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param("sisi", $name, $stock, $description, $product_id);
+        } else {
+            $sql = "UPDATE produtos SET nome_produto = ?, preco = ?, estoque = ?, descricao = ? WHERE id_produto = ?";
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param("sdiss", $name, $price, $stock, $description, $product_id);
+        }
 
         if (!$stmt) {
             $response['message'] = "Erro na preparação do statement: " . $conn->error;

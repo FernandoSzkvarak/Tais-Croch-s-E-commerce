@@ -33,9 +33,7 @@ function submitSupportForm(event) {
         method: 'POST',
         body: formData
     })
-    .then(response => {
-        return response.json();
-    })
+    .then(response => response.json())
     .then(data => {
         if (data.success) {
             showSuccessNotification();
@@ -66,9 +64,21 @@ function submitSupportForm(event) {
     .finally(() => {
         submitButton.disabled = false; // Reabilitar o botão de envio
         submitButton.innerHTML = 'Enviar'; // Restaurar o texto do botão
-        document.getElementById('support-form').reset();
+        document.getElementById('support-form').reset(); // Reseta o formulário após o envio
+        setTimeout(() => {
+            $('#supportModal').modal('hide'); // Fechar o modal após um breve intervalo
+        }, 1000); // Ajuste o tempo se necessário
     });
 }
+
+// Inicializar o evento de envio do formulário
+document.addEventListener('DOMContentLoaded', function () {
+    const supportForm = document.getElementById('support-form');
+    if (supportForm) {
+        supportForm.addEventListener('submit', submitSupportForm);
+    }
+});
+
 
 // Inicialização dos eventos após o DOM estar completamente carregado
 document.addEventListener('DOMContentLoaded', function () {
@@ -95,5 +105,3 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-
-

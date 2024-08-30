@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Verifica se o usuário é administrador
     if (!isAdminUser()) {
-        window.location.href = 'index.php'; // Redireciona se não for admin
+        window.location.href = '../index.php'; // Redireciona se não for admin
         return;
     }
 
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
             cancelButtonText: 'Cancelar'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch('../backend/add_produto.php', {
+                fetch('../../backend/add_produto.php', { // Corrigi o caminho para a pasta backend
                     method: 'POST',
                     body: formData
                 })
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (result.isConfirmed) {
                 formData.set('product-id', document.getElementById('edit-product-id').value);
 
-                fetch('../backend/update_produto.php', {
+                fetch('../../backend/update_produto.php', { // Corrigi o caminho para a pasta backend
                     method: 'POST',
                     body: formData
                 })
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Função para buscar os produtos e preencher a tabela
     function fetchProducts() {
-        fetch('../backend/list_produtos.php')
+        fetch('../../backend/list_produtos.php') // Corrigi o caminho para a pasta backend
         .then(response => response.json())
         .then(data => {
             const productTable = document.getElementById('product-table-body');
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <td>${product.id_produto}</td>
                     <td>${product.nome_produto}</td>
                     <td>${product.descricao}</td>
-                    <td><img src="../backend/${product.imagem}" alt="${product.nome_produto}" style="width: 50px; height: 50px;"></td>
+                    <td><img src="../../backend/${product.imagem}" alt="${product.nome_produto}" style="width: 50px; height: 50px;"></td>
                     <td>R$${product.preco}</td>
                     <td>${product.estoque}</td>
                     <td>
@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Função para abrir o modal de edição com os dados do produto
     function openEditModal(id) {
-        fetch(`../backend/get_produto.php?id=${id}`)
+        fetch(`../../backend/get_produto.php?id=${id}`) // Corrigi o caminho para a pasta backend
         .then(response => response.json())
         .then(data => {
             if (data) {
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const formData = new FormData();
         formData.append('product-id', id);
 
-        fetch('../backend/remove_produto.php', {
+        fetch('../../backend/remove_produto.php', { // Corrigi o caminho para a pasta backend
             method: 'POST',
             body: formData
         })
