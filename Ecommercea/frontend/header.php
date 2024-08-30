@@ -41,8 +41,8 @@ $basePath = (basename($_SERVER['SCRIPT_NAME']) == 'index.php') ? '.' : '..';
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown">
                     <a class="dropdown-item" href="<?php echo $basePath; ?>/ver_perfil.php">Ver Perfil</a>
-                    <a class="dropdown-item" href="<?php echo $basePath; ?>/editar_perfil.php">Editar Perfil</a>
-                    <a class="dropdown-item" href="<?php echo $basePath; ?>/ver_compras.php">Ver Compras</a>
+                
+                
                     <?php if ($isAdmin): ?>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="<?php echo $basePath; ?>/admin/admin.php">Painel Adm</a>

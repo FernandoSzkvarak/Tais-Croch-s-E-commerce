@@ -934,3 +934,33 @@
 2024-08-30 07:38:48 - Valor de $_SESSION['user_id'] após login: 26
 2024-08-30 07:38:48 - Valor de $_SESSION['is_admin'] após login: 1
 2024-08-30 07:38:48 - Finalizando script process_auth.php
+2024-08-30 21:22:09 - Início do script process_auth.php
+2024-08-30 21:22:09 - Ação recebida: login
+2024-08-30 21:22:09 - Processando login de usuário.
+2024-08-30 21:22:09 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 21:22:09 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 21:22:09 - Valor de is_admin no banco de dados: 1
+2024-08-30 21:22:09 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 21:22:09 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 21:22:09 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 21:22:09 - Finalizando script process_auth.php
+2024-08-30 22:08:38 - Início do script process_auth.php
+2024-08-30 22:08:38 - Ação recebida: login
+2024-08-30 22:08:38 - Processando login de usuário.
+2024-08-30 22:08:38 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 22:08:38 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 22:08:38 - Valor de is_admin no banco de dados: 1
+2024-08-30 22:08:38 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 22:08:38 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 22:08:38 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 22:08:38 - Finalizando script process_auth.php
+2024-08-30 22:12:30 - Início do script process_auth.php
+2024-08-30 22:12:30 - Ação recebida: login
+2024-08-30 22:12:30 - Processando login de usuário.
+2024-08-30 22:12:30 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-08-30 22:12:30 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-08-30 22:12:30 - Valor de is_admin no banco de dados: 1
+2024-08-30 22:12:30 - Valor de is_admin armazenado na sessão: 1
+2024-08-30 22:12:30 - Valor de $_SESSION['user_id'] após login: 26
+2024-08-30 22:12:30 - Valor de $_SESSION['is_admin'] após login: 1
+2024-08-30 22:12:30 - Finalizando script process_auth.php

@@ -49,6 +49,8 @@ MODIFY COLUMN nome_usuario VARCHAR(255) NOT NULL;
 ALTER TABLE usuarios
 ADD COLUMN is_admin BOOLEAN NOT NULL DEFAULT 0;
 
+Nao fiz no note:
+ALTER TABLE usuarios ADD COLUMN foto_perfil VARCHAR(255) DEFAULT 'usuario.png';
 
 -- UPDATE usuarios
 -- SET is_admin = 1
