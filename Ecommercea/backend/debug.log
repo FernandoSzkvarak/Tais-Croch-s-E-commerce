@@ -964,3 +964,13 @@
 2024-08-30 22:12:30 - Valor de $_SESSION['user_id'] após login: 26
 2024-08-30 22:12:30 - Valor de $_SESSION['is_admin'] após login: 1
 2024-08-30 22:12:30 - Finalizando script process_auth.php
+2024-09-13 19:40:48 - Início do script process_auth.php
+2024-09-13 19:40:48 - Ação recebida: login
+2024-09-13 19:40:48 - Processando login de usuário.
+2024-09-13 19:40:48 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-09-13 19:40:48 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-09-13 19:40:48 - Valor de is_admin no banco de dados: 1
+2024-09-13 19:40:48 - Valor de is_admin armazenado na sessão: 1
+2024-09-13 19:40:48 - Valor de $_SESSION['user_id'] após login: 26
+2024-09-13 19:40:48 - Valor de $_SESSION['is_admin'] após login: 1
+2024-09-13 19:40:48 - Finalizando script process_auth.php

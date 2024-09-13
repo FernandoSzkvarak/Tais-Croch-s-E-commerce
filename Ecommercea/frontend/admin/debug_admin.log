@@ -648,3 +648,15 @@
 2024-08-30 21:38:13 - Valor de $_SESSION['user_id']: 26
 2024-08-30 21:38:13 - Valor de $_SESSION['is_admin']: 1
 2024-08-30 21:38:13 - Usuário autorizado, carregando página admin_produtos.php
+2024-09-13 19:42:25 - Início do script admin_produtos.php
+2024-09-13 19:42:25 - Valor de $_SESSION['user_id']: 26
+2024-09-13 19:42:25 - Valor de $_SESSION['is_admin']: 1
+2024-09-13 19:42:25 - Usuário autorizado, carregando página admin_produtos.php
+2024-09-13 19:52:24 - Início do script admin_produtos.php
+2024-09-13 19:52:24 - Valor de $_SESSION['user_id']: 26
+2024-09-13 19:52:24 - Valor de $_SESSION['is_admin']: 1
+2024-09-13 19:52:24 - Usuário autorizado, carregando página admin_produtos.php
+2024-09-13 21:47:33 - Início do script admin_produtos.php
+2024-09-13 21:47:33 - Valor de $_SESSION['user_id']: 26
+2024-09-13 21:47:33 - Valor de $_SESSION['is_admin']: 1
+2024-09-13 21:47:33 - Usuário autorizado, carregando página admin_produtos.php

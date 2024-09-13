@@ -79,6 +79,12 @@ if (!isset($_SESSION['user_id']) || !isset($_SESSION['is_admin']) || $_SESSION['
         .dashboard-buttons a.clientes:hover {
             background-color: #0069d9;
         }
+        .dashboard-buttons a.colaboradores {
+            background-color: #ffc107;
+        }
+        .dashboard-buttons a.colaboradores:hover {
+            background-color: #e0a800;
+        }
     </style>
 </head>
 <body>
@@ -89,6 +95,7 @@ if (!isset($_SESSION['user_id']) || !isset($_SESSION['is_admin']) || $_SESSION['
         <div class="dashboard-buttons">
             <a href="admin_produtos.php" class="produtos">Produtos</a>
             <a href="admin_clientes.php" class="clientes">Clientes</a>
+            <a href="admin_colaboradores.php" class="colaboradores">Colaboradores</a>
         </div>
     </div>
 
