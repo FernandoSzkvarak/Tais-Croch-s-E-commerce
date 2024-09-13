@@ -974,3 +974,93 @@
 2024-09-13 19:40:48 - Valor de $_SESSION['user_id'] após login: 26
 2024-09-13 19:40:48 - Valor de $_SESSION['is_admin'] após login: 1
 2024-09-13 19:40:48 - Finalizando script process_auth.php
+2024-09-14 00:08:08 - Início do script process_auth.php
+2024-09-14 00:08:08 - Ação recebida: login
+2024-09-14 00:08:08 - Processando login de usuário.
+2024-09-14 00:08:08 - Usuário não encontrado: fernandodesengrini1@gmail.com
+2024-09-14 00:08:08 - Finalizando script process_auth.php
+2024-09-14 00:08:11 - Início do script process_auth.php
+2024-09-14 00:08:11 - Ação recebida: login
+2024-09-14 00:08:11 - Processando login de usuário.
+2024-09-14 00:08:11 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-09-14 00:08:11 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-09-14 00:08:11 - Valor de is_admin no banco de dados: 0
+2024-09-14 00:08:11 - Valor de is_admin armazenado na sessão: 0
+2024-09-14 00:08:11 - Valor de $_SESSION['user_id'] após login: 12
+2024-09-14 00:08:11 - Valor de $_SESSION['is_admin'] após login: 0
+2024-09-14 00:08:11 - Finalizando script process_auth.php
+2024-09-14 00:08:20 - Início do script process_auth.php
+2024-09-14 00:08:20 - Ação recebida: login
+2024-09-14 00:08:20 - Processando login de usuário.
+2024-09-14 00:08:20 - Usuário não encontrado: f@gmail.com
+2024-09-14 00:08:20 - Finalizando script process_auth.php
+2024-09-14 00:10:01 - Início do script process_auth.php
+2024-09-14 00:10:01 - Ação recebida: login
+2024-09-14 00:10:01 - Processando login de usuário.
+2024-09-14 00:10:01 - Usuário encontrado: gleicitais@gmail.com
+2024-09-14 00:10:01 - Senha correta para usuário: gleicitais@gmail.com
+2024-09-14 00:10:01 - Valor de is_admin no banco de dados: 1
+2024-09-14 00:10:01 - Valor de is_admin armazenado na sessão: 1
+2024-09-14 00:10:01 - Valor de $_SESSION['user_id'] após login: 2
+2024-09-14 00:10:01 - Valor de $_SESSION['is_admin'] após login: 1
+2024-09-14 00:10:01 - Finalizando script process_auth.php
+2024-09-14 01:06:41 - Início do script process_auth.php
+2024-09-14 01:06:41 - Ação recebida: register
+2024-09-14 01:06:41 - Processando registro de usuário.
+2024-09-14 01:06:41 - Usuário registrado com sucesso: a@gmail.com
+2024-09-14 01:06:41 - Finalizando script process_auth.php
+2024-09-14 01:06:58 - Início do script process_auth.php
+2024-09-14 01:06:58 - Ação recebida: register
+2024-09-14 01:06:58 - Processando registro de usuário.
+2024-09-14 01:06:58 - Usuário registrado com sucesso: b@gmail.com
+2024-09-14 01:06:58 - Finalizando script process_auth.php
+2024-09-14 01:07:13 - Início do script process_auth.php
+2024-09-14 01:07:13 - Ação recebida: register
+2024-09-14 01:07:13 - Processando registro de usuário.
+2024-09-14 01:07:13 - Usuário registrado com sucesso: c@gmail.com
+2024-09-14 01:07:13 - Finalizando script process_auth.php
+2024-09-14 01:07:25 - Início do script process_auth.php
+2024-09-14 01:07:25 - Ação recebida: register
+2024-09-14 01:07:25 - Processando registro de usuário.
+2024-09-14 01:07:25 - Erro ao registrar usuário: Duplicate entry '444.444.444-44' for key 'cpf'
+2024-09-14 01:07:25 - Finalizando script process_auth.php
+2024-09-14 01:07:26 - Início do script process_auth.php
+2024-09-14 01:07:26 - Ação recebida: register
+2024-09-14 01:07:26 - Processando registro de usuário.
+2024-09-14 01:07:26 - Erro ao registrar usuário: Duplicate entry '444.444.444-44' for key 'cpf'
+2024-09-14 01:07:26 - Finalizando script process_auth.php
+2024-09-14 01:07:31 - Início do script process_auth.php
+2024-09-14 01:07:31 - Ação recebida: register
+2024-09-14 01:07:31 - Processando registro de usuário.
+2024-09-14 01:07:31 - Usuário registrado com sucesso: d@gmail.com
+2024-09-14 01:07:31 - Finalizando script process_auth.php
+2024-09-14 01:10:46 - Início do script process_auth.php
+2024-09-14 01:10:46 - Ação recebida: login
+2024-09-14 01:10:46 - Processando login de usuário.
+2024-09-14 01:10:46 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-09-14 01:10:46 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-09-14 01:10:46 - Valor de is_admin no banco de dados: 0
+2024-09-14 01:10:46 - Valor de is_admin armazenado na sessão: 0
+2024-09-14 01:10:46 - Valor de $_SESSION['user_id'] após login: 12
+2024-09-14 01:10:46 - Valor de $_SESSION['is_admin'] após login: 0
+2024-09-14 01:10:46 - Finalizando script process_auth.php
+2024-09-14 01:10:53 - Início do script process_auth.php
+2024-09-14 01:10:53 - Ação recebida: login
+2024-09-14 01:10:53 - Processando login de usuário.
+2024-09-14 01:10:53 - Usuário encontrado: gleicitais@gmail.com
+2024-09-14 01:10:54 - Senha correta para usuário: gleicitais@gmail.com
+2024-09-14 01:10:54 - Valor de is_admin no banco de dados: 1
+2024-09-14 01:10:54 - Valor de is_admin armazenado na sessão: 1
+2024-09-14 01:10:54 - Valor de $_SESSION['user_id'] após login: 2
+2024-09-14 01:10:54 - Valor de $_SESSION['is_admin'] após login: 1
+2024-09-14 01:10:54 - Finalizando script process_auth.php
+2024-09-14 01:34:07 - Início do script process_auth.php
+2024-09-14 01:34:07 - Ação recebida: login
+2024-09-14 01:34:07 - Processando login de usuário.
+2024-09-14 01:34:07 - Usuário encontrado: gleicitais@gmail.com
+2024-09-14 01:34:07 - Senha correta para usuário: gleicitais@gmail.com
+2024-09-14 01:34:07 - Valor de is_admin no banco de dados: 1
+2024-09-14 01:34:07 - Valor de is_admin armazenado na sessão: 1
+2024-09-14 01:34:07 - Valor de $_SESSION['user_id'] após login: 2
+2024-09-14 01:34:07 - Valor de $_SESSION['is_admin'] após login: 1
+2024-09-14 01:34:07 - Finalizando script process_auth.php

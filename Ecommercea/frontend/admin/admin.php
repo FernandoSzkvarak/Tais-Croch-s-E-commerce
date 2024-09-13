@@ -1,12 +1,17 @@
 <?php
 session_start();
 
-// Verifica se o usuário está logado e se é administrador
-if (!isset($_SESSION['user_id']) || !isset($_SESSION['is_admin']) || $_SESSION['is_admin'] != 1) {
-    // Se não for administrador, redireciona para a página inicial
+// Verifica se o usuário está logado
+if (!isset($_SESSION['user_id'])) {
     header("Location: ../index.php");
     exit();
 }
+
+// Verifica se o usuário é administrador ou colaborador
+$user_role = isset($_SESSION['is_admin']) ? $_SESSION['is_admin'] : 0;
+
+// Verifica o caminho base, dependendo se estamos na raiz ou em subdiretório
+$basePath = (basename($_SERVER['SCRIPT_NAME']) == 'index.php') ? '.' : '..';
 ?>
 
 <!DOCTYPE html>
@@ -95,7 +100,7 @@ if (!isset($_SESSION['user_id']) || !isset($_SESSION['is_admin']) || $_SESSION['
         <div class="dashboard-buttons">
             <a href="admin_produtos.php" class="produtos">Produtos</a>
             <a href="admin_clientes.php" class="clientes">Clientes</a>
-            <a href="admin_colaboradores.php" class="colaboradores">Colaboradores</a>
+            <a href="admin_colab.php" class="colaboradores">Colaboradores</a>
         </div>
     </div>
 

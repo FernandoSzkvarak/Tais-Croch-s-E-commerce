@@ -6,6 +6,7 @@ if (!isset($_SESSION['user_id']) || !isset($_SESSION['is_admin']) || $_SESSION['
     header("Location: ../index.php");
     exit();
 }
+
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
 error_reporting(E_ALL);
@@ -76,10 +77,6 @@ $baseDir = '../';
             background-color: var(--danger-color) !important;
             color: white !important;
         }
-        .btn-admin {
-            background-color: var(--info-color) !important;
-            color: white !important;
-        }
     </style>
 </head>
 <body>
@@ -102,7 +99,8 @@ $baseDir = '../';
                 <?php
                 include $baseDir . '../backend/db.php';
 
-                $sql = "SELECT id_usuario, nome_usuario, email, telefone, cpf, is_admin FROM usuarios";
+                // Mostra apenas usuários não administradores
+                $sql = "SELECT id_usuario, nome_usuario, email, telefone, cpf FROM usuarios WHERE is_admin = 0";
                 $result = $conn->query($sql);
 
                 if ($result->num_rows > 0) {
@@ -117,9 +115,6 @@ $baseDir = '../';
                         echo "<div class='btn-group'>";
                         echo "<button class='btn btn-editar btn-sm' onclick='editarCliente(" . $row['id_usuario'] . ")'>Editar</button>";
                         echo "<button class='btn btn-remover btn-sm' onclick='removerCliente(" . $row['id_usuario'] . ")'>Remover</button>";
-                        if ($row['is_admin'] != 1) { // Se não for admin, mostra o botão
-                            echo "<button class='btn btn-admin btn-sm' onclick='tornarAdmin(" . $row['id_usuario'] . ")'>Tornar Admin</button>";
-                        }
                         echo "</div>";
                         echo "</td>";
                         echo "</tr>";
