@@ -1064,3 +1064,103 @@
 2024-09-14 01:34:07 - Valor de $_SESSION['user_id'] após login: 2
 2024-09-14 01:34:07 - Valor de $_SESSION['is_admin'] após login: 1
 2024-09-14 01:34:07 - Finalizando script process_auth.php
+2024-09-30 02:16:23 - Início do script process_auth.php
+2024-09-30 02:16:23 - Ação recebida: register
+2024-09-30 02:16:23 - Processando registro de usuário.
+2024-09-30 02:16:23 - Usuário registrado com sucesso: fernandodesengrini11@gmail.com
+2024-09-30 02:16:23 - Finalizando script process_auth.php
+2024-09-30 02:16:41 - Início do script process_auth.php
+2024-09-30 02:16:41 - Ação recebida: login
+2024-09-30 02:16:41 - Processando login de usuário.
+2024-09-30 02:16:41 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-09-30 02:16:41 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-09-30 02:16:41 - Valor de is_admin no banco de dados: 1
+2024-09-30 02:16:41 - Valor de is_admin armazenado na sessão: 1
+2024-09-30 02:16:41 - Valor de $_SESSION['user_id'] após login: 1
+2024-09-30 02:16:41 - Valor de $_SESSION['is_admin'] após login: 1
+2024-09-30 02:16:41 - Finalizando script process_auth.php
+2024-09-30 02:44:58 - Início do script process_auth.php
+2024-09-30 02:44:58 - Ação recebida: register
+2024-09-30 02:44:58 - Processando registro de usuário.
+2024-09-30 02:44:58 - Usuário registrado com sucesso: fernandodesengrini11@gmail.com
+2024-09-30 02:44:58 - Finalizando script process_auth.php
+2024-09-30 02:45:04 - Início do script process_auth.php
+2024-09-30 02:45:04 - Ação recebida: login
+2024-09-30 02:45:04 - Processando login de usuário.
+2024-09-30 02:45:04 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-09-30 02:45:04 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-09-30 02:45:04 - Valor de is_admin no banco de dados: 0
+2024-09-30 02:45:04 - Valor de is_admin armazenado na sessão: 0
+2024-09-30 02:45:04 - Valor de $_SESSION['user_id'] após login: 1
+2024-09-30 02:45:04 - Valor de $_SESSION['is_admin'] após login: 0
+2024-09-30 02:45:04 - Finalizando script process_auth.php
+2024-09-30 02:45:23 - Início do script process_auth.php
+2024-09-30 02:45:23 - Ação recebida: login
+2024-09-30 02:45:23 - Processando login de usuário.
+2024-09-30 02:45:23 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-09-30 02:45:23 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-09-30 02:45:23 - Valor de is_admin no banco de dados: 1
+2024-09-30 02:45:23 - Valor de is_admin armazenado na sessão: 1
+2024-09-30 02:45:23 - Valor de $_SESSION['user_id'] após login: 1
+2024-09-30 02:45:23 - Valor de $_SESSION['is_admin'] após login: 1
+2024-09-30 02:45:23 - Finalizando script process_auth.php
+2024-10-03 18:32:24 - Início do script process_auth.php
+2024-10-03 18:32:24 - Ação recebida: login
+2024-10-03 18:32:24 - Processando login de usuário.
+2024-10-03 18:32:24 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-10-03 18:32:24 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-10-03 18:32:24 - Valor de is_admin no banco de dados: 1
+2024-10-03 18:32:24 - Valor de is_admin armazenado na sessão: 1
+2024-10-03 18:32:24 - Valor de $_SESSION['user_id'] após login: 1
+2024-10-03 18:32:24 - Valor de $_SESSION['is_admin'] após login: 1
+2024-10-03 18:32:24 - Finalizando script process_auth.php
+2024-10-03 19:31:06 - Início do script process_auth.php
+2024-10-03 19:31:06 - Ação recebida: login
+2024-10-03 19:31:06 - Processando login de usuário.
+2024-10-03 19:31:06 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-10-03 19:31:06 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-10-03 19:31:06 - Valor de is_admin no banco de dados: 1
+2024-10-03 19:31:06 - Valor de is_admin armazenado na sessão: 1
+2024-10-03 19:31:06 - Valor de $_SESSION['user_id'] após login: 1
+2024-10-03 19:31:06 - Valor de $_SESSION['is_admin'] após login: 1
+2024-10-03 19:31:06 - Finalizando script process_auth.php
+2024-10-03 20:19:22 - Início do script process_auth.php
+2024-10-03 20:19:22 - Ação recebida: login
+2024-10-03 20:19:22 - Processando login de usuário.
+2024-10-03 20:19:22 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-10-03 20:19:22 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-10-03 20:19:22 - Valor de is_admin no banco de dados: 1
+2024-10-03 20:19:22 - Valor de is_admin armazenado na sessão: 1
+2024-10-03 20:19:22 - Valor de $_SESSION['user_id'] após login: 1
+2024-10-03 20:19:22 - Valor de $_SESSION['is_admin'] após login: 1
+2024-10-03 20:19:22 - Finalizando script process_auth.php
+2024-10-03 21:48:37 - Início do script process_auth.php
+2024-10-03 21:48:37 - Ação recebida: login
+2024-10-03 21:48:37 - Processando login de usuário.
+2024-10-03 21:48:37 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-10-03 21:48:37 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-10-03 21:48:37 - Valor de is_admin no banco de dados: 1
+2024-10-03 21:48:37 - Valor de is_admin armazenado na sessão: 1
+2024-10-03 21:48:37 - Valor de $_SESSION['user_id'] após login: 1
+2024-10-03 21:48:37 - Valor de $_SESSION['is_admin'] após login: 1
+2024-10-03 21:48:37 - Finalizando script process_auth.php
+2024-10-04 16:41:18 - Início do script process_auth.php
+2024-10-04 16:41:18 - Ação recebida: login
+2024-10-04 16:41:18 - Processando login de usuário.
+2024-10-04 16:41:18 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-10-04 16:41:18 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-10-04 16:41:18 - Valor de is_admin no banco de dados: 1
+2024-10-04 16:41:18 - Valor de is_admin armazenado na sessão: 1
+2024-10-04 16:41:18 - Valor de $_SESSION['user_id'] após login: 1
+2024-10-04 16:41:18 - Valor de $_SESSION['is_admin'] após login: 1
+2024-10-04 16:41:18 - Finalizando script process_auth.php
+2024-10-04 20:47:06 - Início do script process_auth.php
+2024-10-04 20:47:06 - Ação recebida: login
+2024-10-04 20:47:06 - Processando login de usuário.
+2024-10-04 20:47:06 - Usuário encontrado: fernandodesengrini11@gmail.com
+2024-10-04 20:47:06 - Senha correta para usuário: fernandodesengrini11@gmail.com
+2024-10-04 20:47:06 - Valor de is_admin no banco de dados: 1
+2024-10-04 20:47:06 - Valor de is_admin armazenado na sessão: 1
+2024-10-04 20:47:06 - Valor de $_SESSION['user_id'] após login: 1
+2024-10-04 20:47:06 - Valor de $_SESSION['is_admin'] após login: 1
+2024-10-04 20:47:06 - Finalizando script process_auth.php

@@ -11,7 +11,7 @@ include '../backend/db.php';
 
 // Obtém os dados do usuário logado
 $user_id = $_SESSION['user_id'];
-$sql = "SELECT nome_usuario, email, telefone, cpf, foto_perfil FROM usuarios WHERE id_usuario = ?";
+$sql = "SELECT nome_usuario, email, telefone, cpf, endereco, cep, foto_perfil FROM usuarios WHERE id_usuario = ?";
 $stmt = $conn->prepare($sql);
 if ($stmt) {
     $stmt->bind_param("i", $user_id);
@@ -71,6 +71,13 @@ $conn->close();
         }
         .profile-container form {
             margin-top: 20px;
+            text-align: left;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .form-group input, .form-group textarea {
+            margin-bottom: 10px;
         }
         footer {
             margin-top: 50vh;
@@ -81,18 +88,44 @@ $conn->close();
     <?php include 'header.php'; ?>
 
     <div class="profile-container">
-        <h2>Perfil de <?php echo isset($user['nome_usuario']) ? htmlspecialchars($user['nome_usuario']) : 'Nome não disponível'; ?></h2>
-        <img src="img/<?php echo isset($user['foto_perfil']) ? htmlspecialchars($user['foto_perfil']) : 'usuario.png'; ?>" alt="Foto de Perfil">
-        <p>Email: <?php echo isset($user['email']) ? htmlspecialchars($user['email']) : 'Email não disponível'; ?></p>
-        <p>Telefone: <?php echo isset($user['telefone']) ? htmlspecialchars($user['telefone']) : 'Telefone não disponível'; ?></p>
-        <p>CPF: <?php echo isset($user['cpf']) ? htmlspecialchars($user['cpf']) : 'CPF não disponível'; ?></p>
+        <h2>Perfil de <?php echo htmlspecialchars($user['nome_usuario'] ?? 'Nome não disponível'); ?></h2>
+        <img src="img/<?php echo htmlspecialchars($user['foto_perfil'] ?? 'usuario.png'); ?>" alt="Foto de Perfil">
 
-        <form action="../backend/atualizar_foto.php" method="post" enctype="multipart/form-data">
+        <!-- Formulário de edição do perfil -->
+        <form action="../backend/update_profile.php" method="post" enctype="multipart/form-data">
+
+            <div class="form-group">
+                <label for="nome_usuario">Nome:</label>
+                <input type="text" class="form-control" id="nome_usuario" name="nome_usuario" value="<?php echo htmlspecialchars($user['nome_usuario'] ?? ''); ?>">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" value="<?php echo htmlspecialchars($user['email'] ?? ''); ?>">
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="text" class="form-control" id="telefone" name="telefone" value="<?php echo htmlspecialchars($user['telefone'] ?? ''); ?>">
+            </div>
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="text" class="form-control" id="cpf" name="cpf" value="<?php echo htmlspecialchars($user['cpf'] ?? ''); ?>">
+            </div>
+            <div class="form-group">
+                <label for="endereco">Endereço:</label>
+                <input type="text" class="form-control" id="endereco" name="endereco" value="<?php echo htmlspecialchars($user['endereco'] ?? ''); ?>">
+            </div>
+            <div class="form-group">
+                <label for="cep">CEP:</label>
+                <input type="text" class="form-control" id="cep" name="cep" value="<?php echo htmlspecialchars($user['cep'] ?? ''); ?>">
+            </div>
+
+            <!-- Campo de troca de foto de perfil -->
             <div class="form-group">
                 <label for="foto_perfil">Trocar Foto de Perfil:</label>
                 <input type="file" class="form-control-file" id="foto_perfil" name="foto_perfil">
             </div>
-            <button type="submit" class="btn btn-primary">Atualizar Foto</button>
+
+            <button type="submit" class="btn btn-primary">Atualizar Perfil</button>
         </form>
     </div>
 

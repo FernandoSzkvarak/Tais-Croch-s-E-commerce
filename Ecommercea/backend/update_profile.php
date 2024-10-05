@@ -26,9 +26,9 @@ if (isset($_FILES['foto_perfil']) && $_FILES['foto_perfil']['error'] == 0) {
             $stmt = $conn->prepare("UPDATE usuarios SET foto_perfil = ? WHERE id_usuario = ?");
             $stmt->bind_param('si', $newFileName, $userId);
             if ($stmt->execute()) {
-                $_SESSION['message'] = "Perfil atualizado com sucesso!";
+                $_SESSION['message'] = "Foto de perfil atualizada com sucesso!";
             } else {
-                $_SESSION['message'] = "Erro ao atualizar perfil no banco de dados.";
+                $_SESSION['message'] = "Erro ao atualizar foto de perfil no banco de dados.";
             }
         } else {
             $_SESSION['message'] = "Erro ao mover o arquivo para o diretório de upload.";
@@ -36,10 +36,25 @@ if (isset($_FILES['foto_perfil']) && $_FILES['foto_perfil']['error'] == 0) {
     } else {
         $_SESSION['message'] = "Tipo de arquivo não permitido.";
     }
-} else {
-    $_SESSION['message'] = "Nenhuma imagem enviada.";
 }
 
-header("Location: ver_perfil.php");
+// Atualiza outros campos do usuário
+$nome_usuario = $_POST['nome_usuario'] ?? '';
+$email = $_POST['email'] ?? '';
+$telefone = $_POST['telefone'] ?? '';
+$cpf = $_POST['cpf'] ?? '';
+$endereco = $_POST['endereco'] ?? '';
+$cep = $_POST['cep'] ?? '';
+
+// Atualiza os dados do usuário
+$stmt = $conn->prepare("UPDATE usuarios SET nome_usuario = ?, email = ?, telefone = ?, cpf = ?, endereco = ?, cep = ? WHERE id_usuario = ?");
+$stmt->bind_param('ssssssi', $nome_usuario, $email, $telefone, $cpf, $endereco, $cep, $userId);
+if ($stmt->execute()) {
+    $_SESSION['message'] = "Perfil atualizado com sucesso!";
+} else {
+    $_SESSION['message'] = "Erro ao atualizar os dados do perfil.";
+}
+
+header("Location: ../frontend/ver_perfil.php");
 exit();
 ?>
