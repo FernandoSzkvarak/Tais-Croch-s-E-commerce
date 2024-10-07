@@ -1,49 +1,37 @@
 <?php
-include 'config.php'; // Inclui as configurações da API
+include 'config.php'; // Inclua o arquivo de configuração com a chave da API
+include 'db.php'; // Inclua a conexão com o banco de dados
 
-// Verifica se o ID do pagamento foi fornecido
-if (!isset($_GET['payment_id'])) {
-    echo json_encode(['success' => false, 'message' => 'ID do pagamento não fornecido.']);
-    exit();
+// Receber o ID do pagamento que será verificado
+$data = json_decode(file_get_contents('php://input'), true);
+
+if (!$data || !isset($data['id_pagamento'])) {
+    echo json_encode(['success' => false, 'message' => 'ID de pagamento não fornecido.']);
+    exit;
 }
 
-$paymentId = $_GET['payment_id'];
+$idPagamento = $data['id_pagamento'];
 
-// Inicializa o cURL para realizar a requisição à API do Asaas
+// Verifica o status do pagamento na API Asaas
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, ASAAS_API_URL . "/payments/{$paymentId}");
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_URL, 'https://sandbox.asaas.com/api/v3/payments/' . $idPagamento);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+    'Content-Type: application/json',
     'access_token: ' . ASAAS_API_KEY
 ));
 
-// Executa a requisição e captura a resposta
 $response = curl_exec($ch);
-
-// Verifica se houve algum erro na requisição cURL
-if (curl_errno($ch)) {
-    echo json_encode(['success' => false, 'message' => 'Erro ao se conectar com o Asaas: ' . curl_error($ch)]);
-    curl_close($ch);
-    exit();
-}
-
 curl_close($ch);
 
-// Decodifica a resposta da API
-$responseData = json_decode($response, true);
+// Decodificar a resposta JSON
+$paymentData = json_decode($response, true);
 
-// Verifica se a resposta contém o status do pagamento
-if (isset($responseData['status'])) {
-    echo json_encode([
-        'success' => true,
-        'status' => $responseData['status'],
-        'data' => $responseData // Retorna todos os dados do pagamento se necessário
-    ]);
+// Verificar o status do pagamento
+if (isset($paymentData['status'])) {
+    // Retorna o status atual do pagamento
+    echo json_encode(['success' => true, 'status' => $paymentData['status']]);
 } else {
-    echo json_encode([
-        'success' => false,
-        'message' => 'Não foi possível obter o status do pagamento. Verifique o ID e tente novamente.',
-        'response' => $responseData // Exibe a resposta completa para debug
-    ]);
+    echo json_encode(['success' => false, 'message' => 'Falha ao verificar o status do pagamento.']);
 }
 ?>
