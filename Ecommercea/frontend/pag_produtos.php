@@ -219,34 +219,48 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script>
-      // Quando o botão "Comprar" for clicado
-      $('#buy-now').on('click', function () {
-          const id_produto = $(this).data('id');
-          const valor = $(this).data('preco');
+      // Modifique a função para garantir que está enviando todos os dados
+// Ao clicar no botão "Comprar"
+$('#buy-now').on('click', function () {
+    const id_produto = $(this).data('id');
+    const valor = $(this).data('preco');
+    const id_cliente = '123456'; // Substitua pelo ID do cliente que você tem no seu banco de dados
 
-          // Fazer requisição AJAX para o backend
-          $.ajax({
-              url: '../backend/process_payment.php',  // Atualizado para o arquivo correto
-              method: 'POST',
-              contentType: 'application/json',
-              data: JSON.stringify({
-                  id_produto: id_produto,
-                  valor: valor
-              }),
-              success: function (response) {
-                  const result = JSON.parse(response);
-                  if (result.success) {
-                      // Redireciona para o link de pagamento/boleto
-                      window.location.href = result.payment_url;
-                  } else {
-                      alert('Erro ao processar o pagamento: ' + result.message);
-                  }
-              },
-              error: function (error) {
-                  alert('Erro ao processar o pagamento.');
-              }
-          });
-      });
+    // Verifica se todos os dados necessários estão definidos
+    if (!id_cliente) {
+        alert('Erro: Cliente não encontrado.');
+        return;
+    }
+
+    // Fazer a requisição AJAX para o backend
+    $.ajax({
+        url: '../backend/proxy.php',  // Endpoint que cria a cobrança
+        method: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({
+            idCliente: id_cliente,
+            valor: valor,
+            dataVencimento: '2024-12-31', // Data fictícia de exemplo
+            descricao: 'Compra de produto Tais Crochês',
+            tipoPagamento: 'BOLETO',
+            externalReference: 'Pedido_' + id_produto
+        }),
+        success: function (response) {
+            const result = JSON.parse(response);
+            if (result.success) {
+                // Redireciona para o link de pagamento/boleto
+                window.location.href = result.payment_url;
+            } else {
+                alert('Erro ao processar o pagamento: ' + result.message);
+            }
+        },
+        error: function (error) {
+            alert('Erro ao processar o pagamento.');
+        }
+    });
+});
+
+
     </script>
 </body>
 </html>
